@@ -52,7 +52,7 @@
     "gatsby"
   ],
   "scripts": {
-    "dev": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   }
