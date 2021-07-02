@@ -11,12 +11,10 @@ import "typeface-bree-serif";
 import "typeface-dm-sans";
 import Clients from "../sections/OurClients/Clients";
 import Testimonials from "../sections/Testimonials/testimonials";
-import BackgroundAnimation from "components/Animations/backgroundAnimation"
 
 export default function IndexPage() {
   return (
     <StickyProvider>
-        <BackgroundAnimation/>
       <Layout>
         <Carousel />
         {/* How We Work */}
