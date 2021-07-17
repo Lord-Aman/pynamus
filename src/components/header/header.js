@@ -8,6 +8,8 @@ import { DrawerProvider } from "contexts/drawer/drawer.provider";
 import lock from "assets/lock.svg";
 import MobileDrawer from "./mobileDrawer";
 import menuItems from "./header.data";
+import { Dropdown } from "react-bootstrap";
+import "./header.css";
 
 export default function Header({ className }) {
   return (
@@ -31,13 +33,27 @@ export default function Header({ className }) {
                 {label}
               </ScrollLink>
             ))}
+            <Dropdown>
+              <Dropdown.Toggle className="dropdown" id="dropdown-basic">
+                Our Services
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item>
+                  <Link path="/webdev" label="Web Developement" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/" label="Social Media Managment" />
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </Flex>
-          <Link path="/" sx={styles.loginBtn}>
+          <Link path="/login" sx={styles.loginBtn}>
             <Image src={lock} alt="" />
-            Login
+            About Us
           </Link>
           <Link
-            path="/"
+            path="/contactus"
             label="Contact Us"
             sx={styles.headerBtn}
             variant="buttons.primary"

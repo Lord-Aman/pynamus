@@ -9,11 +9,11 @@ export default [
     label: "How we Work",
     offset: -750,
   },
-  {
-    path: "services",
-    label: "Services",
-    offset: -40,
-  },
+  // {
+  //   path: "services",
+  //   label: "Services",
+  //   offset: -40,
+  // },
   {
     path: "clients",
     label: "Clients",

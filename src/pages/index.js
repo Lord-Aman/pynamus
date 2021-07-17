@@ -11,17 +11,23 @@ import "typeface-bree-serif";
 import "typeface-dm-sans";
 import Clients from "../sections/OurClients/Clients";
 import Testimonials from "../sections/Testimonials/testimonials";
+import BackgroundAnimation from "components/Animations/backgroundAnimation";
+import Counter from "sections/Counter/Counter";
+import FlyingText from "components/FlyingText/FlyingText";
 
 export default function IndexPage() {
   return (
     <StickyProvider>
+      <BackgroundAnimation />
       <Layout>
+        <FlyingText />
         <Carousel />
         {/* How We Work */}
         <Features />
         {/* How We Work Ends Here  */}
         <Services />
         <Clients />
+        <Counter />
         <Testimonials />
         <Blogs />
       </Layout>
