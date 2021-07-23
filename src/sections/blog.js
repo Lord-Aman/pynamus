@@ -16,21 +16,21 @@ const data = [
     thumb: thumb1,
     commentCount: 22,
     link: '#!',
-    title: `How to work with prototype design with adobe xd featuring tools`,
+    title: `7 Steps to Create a Successful Marketing Plan`,
   },
   {
     id: 2,
     thumb: thumb2,
     commentCount: 15,
     link: '#!',
-    title: `Create multiple artboard by using figma prototyping development`,
+    title: `5 Ways to Do Marketing Research: Tips & Tricks `,
   },
   {
     id: 3,
     thumb: thumb3,
     commentCount: 18,
     link: '#!',
-    title: `Convert your web layout theming easily with sketch zeplin extension`,
+    title: `Ways to Encourage Customers Stick Around Your Company`,
   },
 ];
 
@@ -83,8 +83,10 @@ const Blog = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Popular blog post we update everyday"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click."
+          title="What’s that supposed to mean, ‘What’s going on’?"
+          description="Haven’t you read my blog?
+          Blogging is to writing what conversations are to socializing!
+          ."
         />
         <Slider sx={styles.grid} {...settings}>
           {data?.map(post => (

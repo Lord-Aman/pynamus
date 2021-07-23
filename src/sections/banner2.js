@@ -5,18 +5,20 @@ import sectionImage from "assets/Animated/amplify.gif";
 import "./banner.css";
 
 const BANNER_DATA = {
-  title: "A Creative way to grow your Exciting Business ideas",
+  title1: "Content is ART",
+  title2: "We are the ARTISTS ",
   text: "Get your tests delivered at let home collect sample from the victory of the managments that supplies best design system guidelines ever.",
   image: sectionImage,
 };
 const Banner = () => {
-  const { title, text, image } = BANNER_DATA;
+  const { title1, title2, text, image } = BANNER_DATA;
   return (
     <Box as="section" id="banner" sx={styles.section}>
       <Container sx={styles.container}>
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
-            <Heading as="h2">{title}</Heading>
+            <Heading as="h2">{title1}</Heading>
+            <Heading as="h2">{title2}</Heading>
             <Text as="p">{text}</Text>
           </Box>
           <Box sx={styles.images}>
@@ -39,7 +41,7 @@ export default Banner;
 const styles = {
   section: {
     overflow: "hidden",
-    backgroundColor: "#F9FBFD",
+    backgroundColor: "#FFFFFF",
     pt: ["160px", null, null, null, "200px"],
     pb: ["70px", null, null, null, "100px"],
   },
@@ -52,6 +54,8 @@ const styles = {
     gap: 0,
   },
   content: {
+    marginTop: "50px",
+
     textAlign: ["center", "left", null, "center", "left"],
     flex: ["0 0 100%", null, null, null, "0 0 50%", "0 0 40%"],
     h2: {

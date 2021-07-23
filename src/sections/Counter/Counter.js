@@ -28,11 +28,12 @@ class Counter extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6">
-              <div className="counter">
+              <div className="counter blue">
                 <div classNameName="counter-icon">
                   <i className="fa fa-globe"></i>
                 </div>
                 <span className="counter-value">130</span>
+
                 <h3>Web Designing</h3>
               </div>
             </div>
@@ -46,7 +47,7 @@ class Counter extends Component {
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
-              <div className="counter">
+              <div className="counter blue">
                 <div className="counter-icon">
                   <i className="fa fa-suitcase"></i>
                 </div>

@@ -8,22 +8,25 @@ import AboutImg from "./WebDevImages/about-img.svg";
 import HTML from "./WebDevImages/html.png";
 import CSS from "./WebDevImages/css.png";
 import JS from "./WebDevImages/js.png";
+// import D3 from "./WebDevImages/d3.png";
 import REACT from "./WebDevImages/react.png";
 import VUE from "./WebDevImages/vuejs.png";
+import Pic1 from "./WebDevImages/pic1.png";
+import Pic2 from "./WebDevImages/pic2.png";
+import Pic3 from "./WebDevImages/pic3.png";
 
 function WebDevelopment() {
   return (
-    <>
+    <div className="html">
       <div className="allCSS">
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-              Website development <span>Service</span>
+              Your Website is Like <span> Your PR team </span>
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus suscipit porro nam libero natus error consequatur sed
-              repudiandae eos quo?
+              Attracts visitiors , Guides them to Your Services and promotes You
+              24*7
             </p>
             <a href="#" className="btnACSS">
               contact Us
@@ -36,16 +39,16 @@ function WebDevelopment() {
         </section>
 
         <section className="featuresACSS sectionCSS" id="featuresACSS">
-          <h1 className="headingACSS"> Portfolio </h1>
+          <h1 className="headingACSS"> Your Website’s Beauty is Our Duty! </h1>
 
-          <div className="box-container">
+          <div className="box-containerACSS">
             <div className="box">
               <img src={fIcon1} alt="" />
-              <h3>amazing UI design</h3>
+              <h3>Looks Matter!</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+                Your Design creates “First Impression” in your Audience. Make
+                sure to WOW them. We produce Designs that Make People Stop and
+                Stare.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -54,24 +57,35 @@ function WebDevelopment() {
 
             <div className="box">
               <img src={fIcon2} alt="" />
-              <h3>soft and smooth animations</h3>
+              <h3>Soft and Smooth Animations </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+                What you SEE is What you SELL! Animation is like your love for
+                Coffee, goes to infinity and beyond. We turn Animation into
+                Powerful Communication.
               </p>
               <a href="#" className="btnACSS">
                 read more
               </a>
             </div>
-
+            <div className="box">
+              <img src={fIcon2} alt="" />
+              <h3>Friendly Interactions</h3>
+              <p>
+                It’s Easy to be Complicated than to be Simple. A Convenient
+                Navigation Page delivers your message efficiently. We help you
+                Build Relationship with your Audience.
+              </p>
+              <a href="#" className="btnACSS">
+                read more
+              </a>
+            </div>
             <div className="box">
               <img src={fIcon3} alt="" />
-              <h3>freindly interactions</h3>
+              <h3>Optimized for Mobile </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+                Your website should Look Good on any Platform. The Users of
+                Smartphone are increasing exponentially, We help Improve your
+                Visitor’s Experience.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -89,17 +103,19 @@ function WebDevelopment() {
             </div>
 
             <div className="content">
-              <h3>Easy And Perfect Solution For Your Business App</h3>
+              <h3>Secret Sauce of Great Website </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                placeat deserunt saepe repudiandae veniam soluta minima dolor
-                hic aperiam iure.
+                The Vital Ingredient of a Great Website is to generate hunger
+                for What’s More! The Audience isn’t interested in “What You
+                Provide them” but in
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Laudantium, quaerat. Dolorem ratione saepe magni quo inventore
-                porro ab voluptates eos, nam eius provident accusantium, quia
-                similique est, repellendus et reiciendis.
+                “How You Provide Them”. More than 90% people credited fonts,
+                design, and structure to be the “Instant Connection” for them.
+                Don’t worry! Your Website’s Beauty is now Our Duty. We deliver
+                Top-notch services with the Finest Technology for you to be The
+                Best Player in Market. Our Highly Skilled Team helps address
+                both your planned and unplanned needs with great efficiency.
               </p>
               <div className="buttons">
                 <a href="#" className="btnACSS">
@@ -117,7 +133,7 @@ function WebDevelopment() {
 
         <div className="techACSS">
           <h1 className="headingACSS1">technology We Use</h1>
-          <div className="box-container">
+          <div className="box-containerACSS">
             <div className="box">
               <div className="col">
                 <img src={HTML} />
@@ -131,14 +147,66 @@ function WebDevelopment() {
               <div className="col">
                 <img src={JS} />
               </div>
+
               <div className="col">
                 <img src={VUE} />
               </div>
+              {/* <div className="col">
+                <img src={D3} />
+              </div> */}
             </div>
           </div>
         </div>
+
+        <section class="reviewACSS sectionCSS" id="reviewACSS">
+          <h1 class="headingACSS1"> people's review </h1>
+
+          <div class="box-containerACSS">
+            <div class="box">
+              <div class="userACSS">
+                <img src={Pic1} alt="" />
+                <h3>Murshida Afrin</h3>
+
+                <div class="comment">
+                  Impressed with their service quality and working strategy.
+                  They have a dedicated team to ensure all your needs. Loved
+                  working with them. So attractive and easy to use, reduced the
+                  loading time significantly by use of proper technology.
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="box">
+              <div class="userACSS">
+                <img src={Pic2} alt="" />
+                <h3>john deo</h3>
+
+                <div class="comment">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus et, perspiciatis nisi tempore aspernatur accusantium
+                  sed distinctio facilis aperiam laborum autem earum repellat,
+                  commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                </div>
+              </div>
+            </div>
+           
+            */}
+            <div class="box">
+              <div class="userACSS">
+                <img src={Pic3} alt="" />
+                <h3>Ritish Ghadai</h3>
+                <div class="comment">
+                  Just at loss of words, I appreciate the eye-tempting designs.
+                  The new site is absolutely user-friendly. They are created
+                  with thorough understanding of what I really wanted.
+                  Communication was super-easy, loved it
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </>
+    </div>
   );
 }
 

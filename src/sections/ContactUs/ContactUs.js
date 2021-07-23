@@ -1,372 +1,130 @@
 import React, { Component } from "react";
 import "./ContactUs.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
 
 class ContactUs extends Component {
+  componentDidMount() {
+    const signUpButton = document.getElementById("signUp");
+    const signInButton = document.getElementById("signIn");
+    const containerCSS = document.getElementById("containerCSS");
+
+    signUpButton.addEventListener("click", () => {
+      containerCSS.classList.add("right-panel-active");
+    });
+
+    signInButton.addEventListener("click", () => {
+      containerCSS.classList.remove("right-panel-active");
+    });
+  }
+
   render() {
     return (
-      <body>
-        <header class="header">
-          <a href="#" class="logo">
-            <i class="fas fa-magic"></i>Rawe.
-          </a>
-
-          <div class="fas fa-bars"></div>
-
-          <nav class="navbar">
-            <ul>
-              <li>
-                <a href="#home">home</a>
-              </li>
-              <li>
-                <a href="#about">about</a>
-              </li>
-              <li>
-                <a href="#service">services</a>
-              </li>
-              <li>
-                <a href="#team">team</a>
-              </li>
-              <li>
-                <a href="#contact">contact</a>
-              </li>
-              <li>
-                <a href="#faq">FAQ</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-
-        <section id="home" class="home">
-          <h1 class="banner">Social Media development & services</h1>
-          <h3 class="slogan">
-            you have a vision. we have a team to get you there
-          </h3>
-          <a href="#">
-            <button>get started</button>
-          </a>
-
-          <div class="wave wave1"></div>
-          <div class="wave wave2"></div>
-          <div class="wave wave3"></div>
-
-          <div class="fas fa-cog nut1"></div>
-          <div class="fas fa-cog nut2"></div>
-        </section>
-
-        <section id="about" class="about">
-          <h1 class="heading">About Us</h1>
-
-          <div class="row">
-            <div class="content">
-              <h3>We build contemt that build your business</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
-                amet iure deserunt doloremque voluptate distinctio rerum! Quas
-                sunt inventore illum facere minus voluptas fugit, magni quidem
-                cumque! Animi, illo magni.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-
-            <div class="image">
-              <img src="images/uranus.png" alt="" />
-            </div>
-          </div>
-        </section>
-
-        <section id="service" class="service">
-          <h1 class="heading">our services</h1>
-
-          <div class="row">
-            <div class="image">
-              <img src="images/img1.svg" alt="" />
-            </div>
-            <div class="content">
-              <h3>website development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="content">
-              <h3>mobile freindly</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-            <div class="image">
-              <img src="images/img2.svg" alt="" />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="image">
-              <img src="images/img3.svg" alt="" />
-            </div>
-            <div class="content">
-              <h3>responsive design</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="content">
-              <h3>web hosting</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-            <div class="image">
-              <img src="images/img4.svg" alt="" />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="image">
-              <img src="images/img5.svg" alt="" />
-            </div>
-            <div class="content">
-              <h3>seo freindly</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="content">
-              <h3>graphic design</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                voluptatem, tempore hic deserunt vel temporibus aperiam
-                recusandae ratione, obcaecati at qui accusamus enim, laudantium
-                eveniet. Inventore voluptas nemo placeat. Voluptas.
-              </p>
-              <a href="#">
-                <button class="btn">read more</button>
-              </a>
-            </div>
-            <div class="image">
-              <img src="images/img6.svg" alt="" />
-            </div>
-          </div>
-        </section>
-
-        <section id="team" class="team">
-          <h1 class="heading">our team</h1>
-
-          <div class="row">
-            <div class="card">
-              <div class="image">
-                <img src="images/pic1.png" alt="" />
-              </div>
-              <div class="info">
-                <h3>someone's name</h3>
-                <span>web designer</span>
-                <div class="icons">
-                  <a href="#" class="fab fa-facebook-f"></a>
-                  <a href="#" class="fab fa-twitter"></a>
-                  <a href="#" class="fab fa-instagram"></a>
+      <>
+        <div className="bodyCSS">
+          <div className="containerCSS" id="containerCSS">
+            <div className="form-containerCSS sign-up-containerCSS">
+              <form className="formCSS" action="#">
+                <h1 className="h1CSS">Contact Us</h1>
+                <div className="social-containerCSS">
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-google-plus-g"></i>
+                  </a>
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
                 </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="image">
-                <img src="images/pic2.png" alt="" />
-              </div>
-              <div class="info">
-                <h3>someone's name</h3>
-                <span>web designer</span>
-                <div class="icons">
-                  <a href="#" class="fab fa-facebook-f"></a>
-                  <a href="#" class="fab fa-twitter"></a>
-                  <a href="#" class="fab fa-instagram"></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="image">
-                <img src="images/pic3.png" alt="" />
-              </div>
-              <div class="info">
-                <h3>someone's name</h3>
-                <span>web designer</span>
-                <div class="icons">
-                  <a href="#" class="fab fa-facebook-f"></a>
-                  <a href="#" class="fab fa-twitter"></a>
-                  <a href="#" class="fab fa-instagram"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" class="contact">
-          <h1 class="heading">contact us</h1>
-
-          <div class="row">
-            <div class="image">
-              <img src="images/contact-image.svg" alt="" />
-            </div>
-
-            <div class="form-container">
-              <form action="">
-                <div class="inputBox">
-                  <input type="text" placeholder="first name" />
-                  <input type="text" placeholder="last name" />
-                </div>
-
-                <input type="email" placeholder="email" />
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="message"
-                ></textarea>
-                <input type="submit" value="send" />
+                <span className="spanCSS">
+                  Insure the given Details is Correct
+                </span>
+                <input
+                  className="inputCSS"
+                  type="email"
+                  placeholder="Enter Your Email"
+                />
+                <input
+                  className="inputCSS"
+                  type="Text"
+                  placeholder="Enter Your Address"
+                />
+                <input
+                  className="inputCSS"
+                  type="text"
+                  placeholder="Enter Your Current Location"
+                />
+                {/* <button className="ghost buttonCSS" id="signIn">
+                    Input Details 
+                  </button> */}
+                <button class="buttonCSS"> Submit </button>
               </form>
             </div>
-          </div>
-        </section>
+            <div className="form-containerCSS sign-in-containerCSS">
+              <form className="formCSS" action="#">
+                <h1 className="h1CSS">Follow Us</h1>
+                <div className="social-containerCSS">
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-google-plus-g"></i>
+                  </a>
+                  <a href="#" className="social aCSS">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+                <span className="spanCSS">Fill the Given Details</span>
+                <input
+                  className="inputCSS"
+                  type="name"
+                  placeholder="First Name"
+                />
+                <input
+                  className="inputCSS"
+                  type="Last Name"
+                  placeholder="Last Name"
+                />
+                <input
+                  className="inputCSS"
+                  type="Contact Number"
+                  placeholder="Contact Number"
+                />
 
-        <section id="faq" class="faq">
-          <h1 class="heading">FAQ</h1>
-
-          <div class="row">
-            <div class="image">
-              <img src="images/faq-image.svg" alt="" />
+                <a className="aCSS gotoWebsite" href="/">
+                  Go Back to Our website
+                </a>
+                {/* <button className="buttonCSS">Next</button> */}
+              </form>
             </div>
-
-            <div class="accordion-container">
-              <div class="accordion">
-                <div class="accordion-header">
-                  <span>+</span>
-                  <h3>How much will it cost?</h3>
-                </div>
-                <div class="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quasi atque possimus ipsum quae error ullam reiciendis in
-                    iste maiores nulla. Impedit nam praesentium omnis cupiditate
-                    excepturi natus magnam sunt deleniti!
+            <div className="overlay-containerCSS">
+              <div className="overlay">
+                <div className="overlay-panel overlay-left">
+                  <h1 className="h1CSS">Welcome Back!</h1>
+                  <p className="pCSS">
+                    To keep connected with us please input your personal info
                   </p>
+                  <button className="ghost buttonCSS" id="signIn">
+                    Input Details
+                  </button>
                 </div>
-              </div>
-
-              <div class="accordion">
-                <div class="accordion-header">
-                  <span>+</span>
-                  <h3>How To update website?</h3>
-                </div>
-                <div class="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quasi atque possimus ipsum quae error ullam reiciendis in
-                    iste maiores nulla. Impedit nam praesentium omnis cupiditate
-                    excepturi natus magnam sunt deleniti!
+                <div className="overlay-panel overlay-right">
+                  <h1 className="h1CSS">Hello, Friend!</h1>
+                  <p className="pCSS">
+                    Enter your personal details like Address & location and
+                    start journey with us
                   </p>
-                </div>
-              </div>
-
-              <div class="accordion">
-                <div class="accordion-header">
-                  <span>+</span>
-                  <h3>is domain provided free?</h3>
-                </div>
-                <div class="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quasi atque possimus ipsum quae error ullam reiciendis in
-                    iste maiores nulla. Impedit nam praesentium omnis cupiditate
-                    excepturi natus magnam sunt deleniti!
-                  </p>
-                </div>
-              </div>
-
-              <div class="accordion">
-                <div class="accordion-header">
-                  <span>+</span>
-                  <h3>how long it takes to design?</h3>
-                </div>
-                <div class="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quasi atque possimus ipsum quae error ullam reiciendis in
-                    iste maiores nulla. Impedit nam praesentium omnis cupiditate
-                    excepturi natus magnam sunt deleniti!
-                  </p>
-                </div>
-              </div>
-
-              <div class="accordion">
-                <div class="accordion-header">
-                  <span>+</span>
-                  <h3>is it seo freindly?</h3>
-                </div>
-                <div class="accordion-body">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quasi atque possimus ipsum quae error ullam reiciendis in
-                    iste maiores nulla. Impedit nam praesentium omnis cupiditate
-                    excepturi natus magnam sunt deleniti!
-                  </p>
+                  <button className="ghost buttonCSS" id="signUp">
+                    Next
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-
-        <section class="footer">
-          <h1>created by mr. web designer | all rights reserved.</h1>
-
-          <div class="icons">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-          </div>
-        </section>
-      </body>
+        </div>
+      </>
     );
   }
 }
-
 export default ContactUs;

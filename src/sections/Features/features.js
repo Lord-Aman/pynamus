@@ -11,18 +11,17 @@ const features = () => {
     <section id="values" className="values">
       <div className="container">
         <header className="section-header">
-          <h2>How we Work</h2>
-          <p>Odit est perspiciatis laborum et dicta</p>
+          <h2>How we Roll</h2>
+          <p>We deliver you 4G’s – Great Quality, Growth, Guidance & Glory</p>
         </header>
 
         <div className="row">
           <div className="col-lg-4">
             <div className="box">
               <img src={value1} className="img-fluid" alt="" />
-              <h3>Ad cupiditate sed est odio</h3>
+              <h3>Understand Requirements </h3>
               <p>
-                Eum ad dolor et. Autem aut fugiat debitis voluptatem
-                consequuntur sit. Et veritatis id.
+              We shop the Perfect Ingredients needed to Cook a Great Website. 
               </p>
             </div>
           </div>
@@ -30,10 +29,9 @@ const features = () => {
           <div className="col-lg-4 mt-4 mt-lg-0">
             <div className="box">
               <img src={value2} className="img-fluid" alt="" />
-              <h3>Voluptatem voluptatum alias</h3>
+              <h3>Technology Assessment </h3>
               <p>
-                Repudiandae amet nihil natus in distinctio suscipit id.
-                Doloremque ducimus ea sit non.
+              We blend Technology with Creative Imagination to Never Stay Outdated.
               </p>
             </div>
           </div>
@@ -41,10 +39,9 @@ const features = () => {
           <div className="col-lg-4 mt-4 mt-lg-0">
             <div className="box">
               <img src={value3} className="img-fluid" alt="" />
-              <h3>Fugit cupiditate alias nobis.</h3>
+              <h3>3.	Quality Assurance </h3>
               <p>
-                Quam rem vitae est autem molestias explicabo debitis sint. Vero
-                aliquid quidem commodi.
+              We create Quality Content that can Change your State of Mind in a Second.
               </p>
             </div>
           </div>

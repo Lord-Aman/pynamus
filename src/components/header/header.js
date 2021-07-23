@@ -14,7 +14,7 @@ import "./header.css";
 export default function Header({ className }) {
   return (
     <DrawerProvider>
-      <header sx={styles.header} className={className}>
+      <header sx={styles.header} className={className} className="HeaderA">
         <Container sx={styles.container}>
           <Logo />
 
@@ -43,15 +43,21 @@ export default function Header({ className }) {
                   <Link path="/webdev" label="Web Developement" />
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <Link path="/" label="Social Media Managment" />
+                  <Link path="/appdev" label="App Developement" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/socialmedia" label="Social Media Management" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/graphicdesign" label="Graphics Design" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/videoprod" label="Video Production" />
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Flex>
-          <Link path="/login" sx={styles.loginBtn}>
-            <Image src={lock} alt="" />
-            About Us
-          </Link>
+          <Link path="/aboutus" label="About Us" sx={styles.loginBtn}></Link>
           <Link
             path="/contactus"
             label="Contact Us"
@@ -90,7 +96,7 @@ const styles = {
     alignItems: "center",
     fontSize: "15px",
     color: "#0F2137",
-    fontWeight: 500,
+    fontWeight: 300,
     mr: "20px",
     img: {
       mr: "9px",

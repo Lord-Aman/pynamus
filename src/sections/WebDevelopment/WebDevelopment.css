@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
 
 :root {
-  --purple: #eb1e4b;
+  --purple: #072761;
   --pink: #4589d6;
   --gradient: linear-gradient(90deg, var(--purple), var(--pink));
 }
@@ -23,9 +23,8 @@
   background: var(--pink);
   color: #fff;
 }
-
-.allCSS {
-  font-size: 62.5%;
+html {
+  font-size: 100%;
   overflow-x: hidden;
 }
 
@@ -46,7 +45,7 @@
   padding: 0.8rem 3rem;
   border-radius: 5rem;
   background: var(--gradient);
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -63,7 +62,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   padding: 1rem;
 }
@@ -72,13 +71,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(./WebDevImages/home-bg-img.jpg) no-repeat;
-  background-size: cover;
   background-position: center;
 }
 
 .homeACSS .image img {
-  width: 40vw;
+  width: 34vw;
   animation: float 3s linear infinite;
 }
 
@@ -93,7 +90,7 @@
 }
 
 .homeACSS .content h3 {
-  font-size: 5.5rem;
+  font-size: 2.5rem;
   color: #333;
   text-transform: uppercase;
 }
@@ -104,19 +101,19 @@
 }
 
 .homeACSS .content p {
-  font-size: 1.7rem;
+  font-size: 1rem;
   color: #666;
   padding: 1rem 0;
 }
 
-.featuresACSS .box-container {
+.featuresACSS .box-containerACSS {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.featuresACSS .box-container .box {
+.featuresACSS .box-containerACSS .box {
   flex: 1 1 30rem;
   background: #fff;
   border-radius: 0.5rem;
@@ -129,18 +126,18 @@
   transition: 0.2s linear;
 }
 
-.featuresACSS .box-container .box img {
+.featuresACSS .box-containerACSS .box img {
   height: 15rem;
 }
 
-.featuresACSS .box-container .box h3 {
-  font-size: 2rem;
+.featuresACSS .box-containerACSS .box h3 {
+  font-size: 1.5rem;
   color: #333;
   padding-top: 1rem;
 }
 
-.featuresACSS .box-container .box p {
-  font-size: 1.3rem;
+.featuresACSS .box-containerACSS .box p {
+  font-size: 1rem;
   color: #666;
   padding: 1rem 0;
 }
@@ -164,20 +161,20 @@
 }
 
 .aboutACSS .column .image img {
-  width: 100%;
+  width: 80%;
 }
 
 .aboutACSS .column .content {
-  flex: 1 1 40rem;
+  flex: 1 1 20rem;
 }
 
 .aboutACSS .column .content h3 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: #666;
 }
 
 .aboutACSS .column .content p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #666;
   padding: 1rem 0;
 }
@@ -229,13 +226,14 @@
 }
 
 .col img {
-  width: 100%;
+  width: 70%;
   cursor: pointer;
   /* filter: grayscale(100%); */
 }
 
 .col img:hover {
   filter: grayscale(100%);
+  drop-shadow: (8px 8px 10px blue);
 }
 
 .headingACSS2 {
@@ -250,26 +248,26 @@
   margin-top: 150px;
   margin-bottom: 50px;
 }
-.reviewACSS .box-container {
+.reviewACSS .box-containerACSS {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.reviewACSS .box-container .box {
+.reviewACSS .box-containerACSS .box {
   background: #fff;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   position: relative;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  flex: 1 1 30rem;
+  flex: 1 1 20rem;
   border-radius: 0.5rem;
 }
 
-.reviewACSS .box-container .box .fa-quote-right {
+.reviewACSS .box-containerACSS .box .fa-quote-right {
   position: absolute;
   top: 1rem;
   right: 2rem;
@@ -278,28 +276,28 @@
   opacity: 0.3;
 }
 
-.reviewACSS .box-container .box .user img {
+.reviewACSS .box-containerACSS .box .userACSS img {
   border-radius: 50%;
   object-fit: cover;
-  height: 7rem;
-  width: 7rem;
+  height: 10rem;
+  width: 10rem;
   margin-top: 2rem;
 }
 
-.reviewACSS .box-container .box .user h3 {
+.reviewACSS .box-containerACSS .box .userACSS h3 {
   color: var(--pink);
-  font-size: 2rem;
-}
-
-.reviewACSS .box-container .box .user .stars i {
-  color: var(--purple);
   font-size: 1.5rem;
-  padding: 1rem 0;
 }
 
-.reviewACSS .box-container .box .comment {
+.reviewACSS .box-containerACSS .box .userACSS .starsACSS i {
+  color: var(--purple);
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.reviewACSS .box-containerACSS .box .comment {
   color: #666;
-  font-size: 1.4rem;
+  font-size: 1rem;
   padding: 1rem;
 }
 
@@ -313,7 +311,7 @@
 
 @media (max-width: 1200px) {
   html {
-    font-size: 55%;
+    font-size: 100%;
   }
 }
 
@@ -335,11 +333,11 @@
   }
 
   .homeACSS .content h3 {
-    font-size: 3.6rem;
+    font-size: 1.5rem;
   }
 
   .homeACSS .content p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .aboutACSS {

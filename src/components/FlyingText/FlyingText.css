@@ -21,6 +21,11 @@
   height: 20vh;
   text-transform: uppercase;
 }
+@media screen and (max-width: 600px) {
+  #fly-in {
+    font-size: 2rem;
+  }
+}
 
 #fly-in span {
   display: block;

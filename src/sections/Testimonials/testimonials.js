@@ -12,8 +12,8 @@ function Testimonials() {
     <section id="team" class="team">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2>Testimonials</h2>
-          <p>What Our Clients Say About Us</p>
+          <h2>Why Choose TechMasterGoGo?</h2>
+          <p>Are we liked? Listen to our customers!</p>
         </header>
 
         <div class="row gy-4">
@@ -41,12 +41,11 @@ function Testimonials() {
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Shweta Das</h4>
+                <span>Client</span>
                 <p>
-                  Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
-                  tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
-                  corporis et voluptate.
+                They’ve just been outstanding asset. I Loved working with them. The team was so cooperative and helpful.
+                 I was overburdened handling my social media platforms but they managed it so well. 
                 </p>
               </div>
             </div>
@@ -76,12 +75,10 @@ function Testimonials() {
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Akansha Jha</h4>
+                <span>Client</span>
                 <p>
-                  Quo esse repellendus quia id. Est eum et accusantium pariatur
-                  fugit nihil minima suscipit corporis. Voluptate sed quas
-                  reiciendis animi neque sapiente.
+                They’ve met my every goal and expectation. The ideas presented by them were really helpful to set us apart from the competitors. Helped us achieve a lot more than what we expected. 
                 </p>
               </div>
             </div>
@@ -111,12 +108,10 @@ function Testimonials() {
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Aman Kumar </h4>
+                <span>Client</span>
                 <p>
-                  Vero omnis enim consequatur. Voluptas consectetur unde qui
-                  molestiae deserunt. Voluptates enim aut architecto porro
-                  aspernatur molestiae modi.
+                Definitely changed my thoughts into reality. Amazing dedication and hard work. Their flexibility and ability to understand client’s demand is great. They understand meaningful marketing and helped us do the same. 
                 </p>
               </div>
             </div>
@@ -146,12 +141,10 @@ function Testimonials() {
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Akash Kumar </h4>
+                <span>Client</span>
                 <p>
-                  Rerum voluptate non adipisci animi distinctio et deserunt amet
-                  voluptas. Quia aut aliquid doloremque ut possimus ipsum
-                  officia.
+                I was amazed by their quality of service. The team is filled with energy and enthusiasm. The strategies and creativity helped us reach a whole new bar in the marketplace. Enjoyed working with them
                 </p>
               </div>
             </div>

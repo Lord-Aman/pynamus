@@ -6,7 +6,7 @@ function FlyingText() {
     <div id="fly-in">
       <div>Tech Master GoGo</div>
       <div>Content Creator</div>
-      <div>Website Content</div>
+      <div>Website Development</div>
       <div>Social Media Management</div>
       {/* <div>and many more</div>
       <div>Happy Clients</div>

@@ -1,86 +1,107 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./footer.css";
 function footer() {
   return (
-    <footer className="text-center text-lg-start bg-light text-muted">
-      <section className="">
-        <div className="container text-center text-md-start mt-5">
-          <div className="row mt-3">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Company name
-              </h6>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Tech Master GoGo</h3>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                A108 Adam Street <br></br>
+                New York, NY 535022<br></br>
+                United States <br></br>
+                <strong>Phone:</strong> +1 5589 55488 55<br></br>
+                <strong>Email:</strong> info@example.com<br></br>
               </p>
             </div>
 
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-              <p>
-                <a href="#" className="text-reset">
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  React
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href="#" className="text-reset">
-                  Laravel
-                </a>
-              </p>
-            </div>
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#" className="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Help
-                </a>
-              </p>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
             </div>
 
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>New York, NY 10012, US</p>
-              <p>info@example.com</p>
-              <p>+ 01 234 567 88</p>
-              <p>+ 01 234 567 89</p>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Web Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Product Management</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>{" "}
+                  <a href="#">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Social Networks</h4>
+              <p>
+                Cras fermentum odio eu feugiat lide par naso tierra videa magna
+                derita valies
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="facebook">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="google-plus">
+                  <i class="fab fa-skype"></i>
+                </a>
+                <a href="#" class="linkedin">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <div className="text-center p-4">
-        © 2021 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          Tech Master GoGo
-        </a>
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright{" "}
+          <strong>
+            <span>Tech Master Gogo</span>
+          </strong>
+          . All Rights Reserved
+        </div>
       </div>
     </footer>
   );

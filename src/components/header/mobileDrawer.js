@@ -2,14 +2,15 @@ import React, { useContext } from "react";
 import { Button, Box } from "theme-ui";
 import { Scrollbars } from "react-custom-scrollbars";
 import Drawer from "components/drawer";
+import { Link } from "components/link";
+
 import { DrawerContext } from "contexts/drawer/drawer.context";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { Link as ScrollLink } from "react-scroll";
 import menuItems from "./header.data";
 import Logo from "components/logo";
-import {Dropdown} from "react-bootstrap"
-import "./header.css"
-
+import { Dropdown } from "react-bootstrap";
+import "./header.css";
 
 const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -52,23 +53,33 @@ const MobileDrawer = () => {
                 {label}
               </ScrollLink>
             ))}
-          <Dropdown>
+            <Dropdown>
               <Dropdown.Toggle className="dropdown" id="dropdown-basic">
-                Explore More
+                Our Services
               </Dropdown.Toggle>
-                
+
               <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/webdev" label="Web Developement" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/appdev" label="App Developement" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/socialmedia" label="Social Media Management" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/graphicdesign" label="Graphics Design" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/videoprod" label="Video Production" />
+                </Dropdown.Item>
               </Dropdown.Menu>
-           </Dropdown>
+            </Dropdown>
           </Box>
 
           <Box sx={styles.menuFooter}>
-            <Button variant="primary" sx={styles.button}>
-              Contact Us
-            </Button>
+            <Link path="/contactus" label="Contact Us" sx={styles.button} />
           </Box>
         </Box>
       </Scrollbars>
@@ -149,7 +160,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     py: "0",
-    backgroundColor: "black",
+    backgroundColor: "#0b3257",
     color: "#fff",
   },
 };

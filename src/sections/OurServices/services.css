@@ -16,7 +16,9 @@ a:hover {
   color: #717ff5;
   text-decoration: none;
 }
-
+.links:hover {
+  color: #fff;
+}
 h1,
 h2,
 h3,
@@ -193,12 +195,12 @@ section {
 
 .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.blue .icon {
@@ -211,18 +213,17 @@ section {
 }
 
 .services .service-box.blue:hover {
-  background: #616FD7;
-  
+  background: #616fd7;
 }
 
 .services .service-box.orange {
   border-bottom: 3px solid #f68c09;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.orange .icon {
@@ -235,17 +236,17 @@ section {
 }
 
 .services .service-box.orange:hover {
-  background: #616FD7;
+  background: #616fd7;
 }
 
 .services .service-box.green {
   border-bottom: 3px solid #08da4e;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.green .icon {
@@ -258,17 +259,17 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #616FD7;
+  background: #616fd7;
 }
 
 .services .service-box.red {
   border-bottom: 3px solid #e9222c;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.red .icon {
@@ -281,17 +282,17 @@ section {
 }
 
 .services .service-box.red:hover {
-  background: #616FD7;
+  background: #616fd7;
 }
 
 .services .service-box.purple {
   border-bottom: 3px solid #b50edf;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.purple .icon {
@@ -304,17 +305,17 @@ section {
 }
 
 .services .service-box.purple:hover {
-  background: #616FD7;
+  background: #616fd7;
 }
 
 .services .service-box.pink {
   border-bottom: 3px solid #f51f9c;
-  background: rgba( 197, 197, 244, 0.10 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.0px );
-  -webkit-backdrop-filter: blur( 5.0px );
+  background: rgba(197, 197, 244, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .services .service-box.pink .icon {
@@ -327,7 +328,7 @@ section {
 }
 
 .services .service-box.pink:hover {
-  background: #616FD7;
+  background: #616fd7;
 }
 
 .services .service-box:hover h3,
