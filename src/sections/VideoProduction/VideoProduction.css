@@ -9,7 +9,7 @@
 }
 
 .allCSS {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -90,7 +90,8 @@ html {
 }
 
 .homeACSS .content h3 {
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 3.5rem;
   color: #333;
   text-transform: uppercase;
 }
@@ -101,7 +102,7 @@ html {
 }
 
 .homeACSS .content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
   padding: 1rem 0;
 }
@@ -140,10 +141,10 @@ html {
   font-size: 1rem;
   color: #666;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .aboutACSS {
-  /* background: url(./VideoProductionImages/about-bg.png) no-repeat; */
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
@@ -177,6 +178,7 @@ html {
   font-size: 1.5rem;
   color: #666;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .aboutACSS .column .content .buttons a:last-child {
@@ -298,6 +300,7 @@ html {
   color: #666;
   font-size: 1rem;
   padding: 1rem;
+  text-align: justify;
 }
 
 /* media queries  */

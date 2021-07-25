@@ -9,7 +9,7 @@
 }
 
 .allCSS {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,7 +27,6 @@ html {
   font-size: 100%;
   overflow-x: hidden;
 }
-
 
 .allCSS {
   background: #f9f9f9;
@@ -72,7 +71,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(./SocialMediaImages/home-bg-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -93,7 +91,8 @@ html {
 }
 
 .homeACSS .content h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  font-weight: 600;
   color: #333;
   text-transform: uppercase;
 }
@@ -104,7 +103,7 @@ html {
 }
 
 .homeACSS .content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
   padding: 1rem 0;
 }
@@ -180,6 +179,7 @@ html {
   font-size: 1rem;
   color: #666;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .aboutACSS .column .content .buttons a:last-child {
@@ -233,7 +233,6 @@ html {
   cursor: pointer;
   /* filter: grayscale(100%); */
 }
-
 
 .col img:hover {
   filter: grayscale(100%);
@@ -303,6 +302,7 @@ html {
   color: #666;
   font-size: 1rem;
   padding: 1rem;
+  text-align: justify;
 }
 
 /* media queries  */

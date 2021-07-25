@@ -12,7 +12,7 @@ function Testimonials() {
     <section id="team" class="team">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2>Why Choose TechMasterGoGo?</h2>
+          <h2>Why Choose Tech Master GoGo?</h2>
           <p>Are we liked? Listen to our customers!</p>
         </header>
 
@@ -44,8 +44,10 @@ function Testimonials() {
                 <h4>Shweta Das</h4>
                 <span>Client</span>
                 <p>
-                They’ve just been outstanding asset. I Loved working with them. The team was so cooperative and helpful.
-                 I was overburdened handling my social media platforms but they managed it so well. 
+                  They’ve just been outstanding asset. I Loved working with
+                  them. The team was so cooperative and helpful. I was
+                  overburdened handling my social media platforms but they
+                  managed it so well.
                 </p>
               </div>
             </div>
@@ -78,7 +80,10 @@ function Testimonials() {
                 <h4>Akansha Jha</h4>
                 <span>Client</span>
                 <p>
-                They’ve met my every goal and expectation. The ideas presented by them were really helpful to set us apart from the competitors. Helped us achieve a lot more than what we expected. 
+                  They’ve met my every goal and expectation. The ideas presented
+                  by them were really helpful to set us apart from the
+                  competitors. Helped us achieve a lot more than what we
+                  expected.
                 </p>
               </div>
             </div>
@@ -111,7 +116,10 @@ function Testimonials() {
                 <h4>Aman Kumar </h4>
                 <span>Client</span>
                 <p>
-                Definitely changed my thoughts into reality. Amazing dedication and hard work. Their flexibility and ability to understand client’s demand is great. They understand meaningful marketing and helped us do the same. 
+                  Definitely changed my thoughts into reality. Amazing
+                  dedication and hard work. Their flexibility and ability to
+                  understand client’s demand is great. They understand
+                  meaningful marketing and helped us do the same.
                 </p>
               </div>
             </div>
@@ -144,7 +152,10 @@ function Testimonials() {
                 <h4>Akash Kumar </h4>
                 <span>Client</span>
                 <p>
-                I was amazed by their quality of service. The team is filled with energy and enthusiasm. The strategies and creativity helped us reach a whole new bar in the marketplace. Enjoyed working with them
+                  I was amazed by their quality of service. The team is filled
+                  with energy and enthusiasm. The strategies and creativity
+                  helped us reach a whole new bar in the marketplace. Enjoyed
+                  working with them
                 </p>
               </div>
             </div>

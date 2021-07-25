@@ -11,7 +11,14 @@ const features = () => {
     <section id="values" className="values">
       <div className="container">
         <header className="section-header">
-          <h2>How we Roll</h2>
+          <h2
+            style={{
+              color: "#4589d6",
+              fontSize: "25px",
+            }}
+          >
+            How we Roll
+          </h2>
           <p>We deliver you 4G’s – Great Quality, Growth, Guidance & Glory</p>
         </header>
 
@@ -21,7 +28,7 @@ const features = () => {
               <img src={value1} className="img-fluid" alt="" />
               <h3>Understand Requirements </h3>
               <p>
-              We shop the Perfect Ingredients needed to Cook a Great Website. 
+                We shop the Perfect Ingredients needed to Cook a Great Website.
               </p>
             </div>
           </div>
@@ -31,7 +38,8 @@ const features = () => {
               <img src={value2} className="img-fluid" alt="" />
               <h3>Technology Assessment </h3>
               <p>
-              We blend Technology with Creative Imagination to Never Stay Outdated.
+                We blend Technology with Creative Imagination to Never Stay
+                Outdated.
               </p>
             </div>
           </div>
@@ -39,9 +47,12 @@ const features = () => {
           <div className="col-lg-4 mt-4 mt-lg-0">
             <div className="box">
               <img src={value3} className="img-fluid" alt="" />
-              <h3>3.	Quality Assurance </h3>
+              <h3>
+                Quality <br></br>Assurance{" "}
+              </h3>
               <p>
-              We create Quality Content that can Change your State of Mind in a Second.
+                We create Quality Content that can Change your State of Mind in
+                a Second.
               </p>
             </div>
           </div>

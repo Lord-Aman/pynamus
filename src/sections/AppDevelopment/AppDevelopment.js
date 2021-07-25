@@ -21,7 +21,6 @@ import Pic14 from "./AppDevImages/pic14.png";
 import Pic15 from "./AppDevImages/pic15.png";
 import Pic16 from "./AppDevImages/pic16.png";
 
-
 function AppDevelopment() {
   return (
     <div className="html">
@@ -29,11 +28,11 @@ function AppDevelopment() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-              Your Website is Like <span> Your PR team </span>
+              one tap away from <span> your Dream Business Growth </span>
             </h3>
             <p>
-              Attracts visitiors , Guides them to Your Services and promotes You
-              24*7
+              We Deliver Digital Transformation to Enable Your Business Anytime,
+              Anywhere!
             </p>
             <a href="#" className="btnACSS">
               contact Us
@@ -46,16 +45,16 @@ function AppDevelopment() {
         </section>
 
         <section className="featuresACSS sectionCSS" id="featuresACSS">
-          <h1 className="headingACSS"> Your Website’s Beauty is Our Duty! </h1>
+          <h1 className="headingACSS">URGENT ATTENTION ! </h1>
 
           <div className="box-containerACSS">
             <div className="box">
               <img src={Pic13} alt="" />
-              <h3>Looks Matter!</h3>
+              <h3>URGENT ATTENTION </h3>
               <p>
-                Your Design creates “First Impression” in your Audience. Make
-                sure to WOW them. We produce Designs that Make People Stop and
-                Stare.
+                We Design Apps which are Platform Friendly. Catering the Design
+                of Mobile App, We Ensure User-Experience is Seamless and
+                Effortless. .
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -64,11 +63,11 @@ function AppDevelopment() {
 
             <div className="box">
               <img src={Pic14} alt="" />
-              <h3>Soft and Smooth Animations </h3>
+              <h3> Mobile App Development </h3>
               <p>
-                What you SEE is What you SELL! Animation is like your love for
-                Coffee, goes to infinity and beyond. We turn Animation into
-                Powerful Communication.
+                We are Well Versed from Website-to-App Conversion to Inventive
+                Concept Understanding; From Refactoring of your Prevailing Code
+                to Blank-Slate App Development.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -76,11 +75,12 @@ function AppDevelopment() {
             </div>
             <div className="box">
               <img src={Pic15} alt="" />
-              <h3>Friendly Interactions</h3>
+              <h3>Mobile App Evolution </h3>
               <p>
-                It’s Easy to be Complicated than to be Simple. A Convenient
-                Navigation Page delivers your message efficiently. We help you
-                Build Relationship with your Audience.
+                TechMasterGoGo is always eager to help your App Grow by
+                Perfection, Intensifying its Functionality According to your
+                Direction, and Presenting leading-edge Mobile Experiences to
+                Keep your Users Continuously Engaged.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -88,11 +88,11 @@ function AppDevelopment() {
             </div>
             <div className="box">
               <img src={Pic16} alt="" />
-              <h3>Optimized for Mobile </h3>
+              <h3>UX/UI Design </h3>
               <p>
-                Your website should Look Good on any Platform. The Users of
-                Smartphone are increasing exponentially, We help Improve your
-                Visitor’s Experience.
+                We Expertise From Innovative Thinking to Final Polish, Our UX/UI
+                Design Development Emphases on Generating User-centric Mobile
+                Solutions that Enhance Brand Reputation.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -110,19 +110,19 @@ function AppDevelopment() {
             </div>
 
             <div className="content">
-              <h3>Secret Sauce of Great Website </h3>
+              <h3>Secret Sauce Of Great APP </h3>
               <p>
-                The Vital Ingredient of a Great Website is to generate hunger
-                for What’s More! The Audience isn’t interested in “What You
-                Provide them” but in
+                An Increase of 20% Every Year has been Recorded for App Usage.
+                From Significant Number of Users to Being Easily Accessible,
+                Mobile APP holds the Future.
               </p>
               <p>
-                “How You Provide Them”. More than 90% people credited fonts,
-                design, and structure to be the “Instant Connection” for them.
-                Don’t worry! Your Website’s Beauty is now Our Duty. We deliver
-                Top-notch services with the Finest Technology for you to be The
-                Best Player in Market. Our Highly Skilled Team helps address
-                both your planned and unplanned needs with great efficiency.
+                As Professionals at Developer, Apps hold the Capacity to Build
+                Cross-Platform Mobile Applications that work on any Device or
+                Platform. Custom Mobile Application Development Requirements is
+                Assured. The Final Deliverable, No Matter the Expertise its
+                Built on, Will be Safe, Scalable and Supportable in Whatsoever
+                Situation its Hosted.
               </p>
               <div className="buttons">
                 <a href="#" className="btnACSS">

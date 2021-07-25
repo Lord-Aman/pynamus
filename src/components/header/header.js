@@ -5,7 +5,6 @@ import { Link } from "components/link";
 import { Link as ScrollLink } from "react-scroll";
 import Logo from "components/logo";
 import { DrawerProvider } from "contexts/drawer/drawer.provider";
-import lock from "assets/lock.svg";
 import MobileDrawer from "./mobileDrawer";
 import menuItems from "./header.data";
 import { Dropdown } from "react-bootstrap";
@@ -54,6 +53,15 @@ export default function Header({ className }) {
                 <Dropdown.Item>
                   <Link path="/videoprod" label="Video Production" />
                 </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/contentwriting" label="Content Writing" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/leadgeneration" label="Lead Generation" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/seomanagement" label="SEO Management" />
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Flex>
@@ -74,7 +82,8 @@ export default function Header({ className }) {
 
 const styles = {
   headerBtn: {
-    backgroundColor: "#4589d6",
+    // backgroundColor: "#4589d6",
+    backgroundColor: "#2667e0",
     fontSize: "16px",
     fontWeight: "bold",
     letterSpacing: "-0.16px",

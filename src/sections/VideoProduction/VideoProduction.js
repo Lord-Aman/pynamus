@@ -45,12 +45,13 @@ function VideoProduction() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-              Video Production <span> Service</span>
+            VIDEO AND <span> ANIMATION</span>
             </h3>
+            <h2>
+            BUILDS VISUAL<span> FOUNDATION </span>
+            </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus suscipit porro nam libero natus error consequatur sed
-              repudiandae eos quo?
+            Video Boosts Sales to a Great Extent. Promotes your Brand at Places You Can’t Reach. It’s not the Product YOU SELL but the Story You TELL!
             </p>
             <a href="#" className="btnACSS">
               contact Us
@@ -63,16 +64,14 @@ function VideoProduction() {
         </section>
 
         <section className="featuresACSS sectionCSS" id="featuresACSS">
-          <h1 className="headingACSS"> Video Tape </h1>
+          <h1 className="headingACSS"> WE CREATE </h1>
 
           <div className="box-containerACSS">
             <div className="box">
               <img src={Pic25} alt="" />
               <h3>Real Estate Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              It is believed that Videography helps rise Offers and Requests from Potential Clients. Video puts a face to the Brand, which Elevate Sales.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -83,9 +82,7 @@ function VideoProduction() {
               <img src={Pic24} alt="" />
               <h3>Commercial/Advertising Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              92% B2B prospects consume Online Video. A Commercial helps you Convey Audience Why Your Product Is Best from The Rest. 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -95,9 +92,7 @@ function VideoProduction() {
               <img src={Pic23} alt="" />
               <h3>Promotional Documentary Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              A Promotional Video makes a Better Impression of Your Product. It adds Value & Life in Your Brand. Captures Attention Faster than Light 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -107,9 +102,7 @@ function VideoProduction() {
               <img src={Pic26} alt="" />
               <h3>Corporate Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              Communication of Your Brand is Crucial than Sales. Nobody Purchase Essential Goods From Unknown Sites. 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -119,9 +112,7 @@ function VideoProduction() {
               <img src={Pic22} alt="" />
               <h3>Educational Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              The Most Visited YouTube Pages are of Educational Channels. Video Formatting has helped Students Learn Faster Thus Increased its Demand to Several Folds
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -131,9 +122,7 @@ function VideoProduction() {
               <img src={Pic21} alt="" />
               <h3>Social Media Video Services</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-                minus recusandae autem, repellendus fugit quaerat provident
-                voluptatum non officiis ratione.
+              Video allows to Concise and Capture User’s Interest in Seconds. The Short Videos on Social Media are easily Digestible which Makes People Want It More. 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -151,17 +140,14 @@ function VideoProduction() {
             </div>
 
             <div className="content">
-              <h3>Easy And Perfect Solution For Your Business App</h3>
+              <h3>Secret Sauce Of Great Videos </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                placeat deserunt saepe repudiandae veniam soluta minima dolor
-                hic aperiam iure.
+              It is No Secret that 5 Billion YouTube Videos are Being Watched On a Daily Basis. People have Started to Watch More and Read Less. Video Outperforms any other Marketing Tools.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Laudantium, quaerat. Dolorem ratione saepe magni quo inventore
-                porro ab voluptates eos, nam eius provident accusantium, quia
-                similique est, repellendus et reiciendis.
+              Don’t Worry, We Create Amazing Videos Across all Departments!
+              Our Strong Marketing Strategy with Brilliant Scriptwriting and Storytelling Services helps Script, Shoot, Edit, Produce & Share your Video Widely and Supports Marketing Goals
+
               </p>
               <div className="buttons">
                 <a href="#" className="btnACSS">
@@ -210,10 +196,7 @@ function VideoProduction() {
                 <h3>john deo</h3>
 
                 <div class="comment">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus et, perspiciatis nisi tempore aspernatur accusantium
-                  sed distinctio facilis aperiam laborum autem earum repellat,
-                  commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                They’ve Met My Every Goal And Expectation. The Ideas Presented By Them Were Really Helpful To Set Us Apart From The Competitors. Helped Us Achieve A Lot More Than What We Expected.
                 </div>
               </div>
             </div>
@@ -239,10 +222,7 @@ function VideoProduction() {
                 <h3>john deo</h3>
 
                 <div class="comment">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus et, perspiciatis nisi tempore aspernatur accusantium
-                  sed distinctio facilis aperiam laborum autem earum repellat,
-                  commodi eum. Ullam cupiditate expedita officiis obcaecati?
+                I Was Amazed By Their Quality Of Service. The Team Is Filled With Energy And Enthusiasm. The Strategies And Creativity Helped Us Reach A Whole New Bar In The Marketplace. Enjoyed Working With Them
                 </div>
               </div>
             </div>

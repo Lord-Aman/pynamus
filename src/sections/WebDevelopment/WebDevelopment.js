@@ -12,7 +12,6 @@ import JS from "./WebDevImages/js.png";
 import REACT from "./WebDevImages/react.png";
 import VUE from "./WebDevImages/vuejs.png";
 import Pic1 from "./WebDevImages/pic1.png";
-import Pic2 from "./WebDevImages/pic2.png";
 import Pic3 from "./WebDevImages/pic3.png";
 
 function WebDevelopment() {

@@ -26,9 +26,8 @@ import Pic21 from "./SocialMediaImages/pic21.png";
 import Pic22 from "./SocialMediaImages/pic22.png";
 import Pic23 from "./SocialMediaImages/pic23.png";
 import Pic24 from "./SocialMediaImages/pic24.png";
-
-
-
+import Pic25 from "./SocialMediaImages/pic25.png";
+import Pic26 from "./SocialMediaImages/pic26.png";
 
 function SocialMedia() {
   return (
@@ -37,11 +36,16 @@ function SocialMedia() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-              Your Website is Like <span> Your PR team </span>
+              Social Media <span> Management </span>
             </h3>
+            <h2>Provide for the PEOPLE</h2>
+            <h2>PEOPLE will provide you!</h2>
+
             <p>
-              Attracts visitiors , Guides them to Your Services and promotes You
-              24*7
+              Social Media holds the power to turn Illusion into Reality. In a
+              world full of Tweets, Algorithm & Digital Connection, We help
+              create Human Connection! Powerful tool to Create IMPACT not to
+              IMPRESS
             </p>
             <a href="#" className="btnACSS">
               contact Us
@@ -59,11 +63,11 @@ function SocialMedia() {
           <div className="box-containerACSS">
             <div className="box">
               <img src={Pic13} alt="" />
-              <h3>Looks Matter!</h3>
+              <h3>Engage </h3>
               <p>
-                Your Design creates “First Impression” in your Audience. Make
-                sure to WOW them. We produce Designs that Make People Stop and
-                Stare.
+                Best way to get ENGAGEMENT is to start ENGAGING! Users engage
+                with content they find Relatable. Engage is the Ultimate Change.
+                Audiences Interest help you reach Everest.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -72,11 +76,11 @@ function SocialMedia() {
 
             <div className="box">
               <img src={Pic15} alt="" />
-              <h3>Soft and Smooth Animations </h3>
+              <h3>Evolve </h3>
               <p>
-                What you SEE is What you SELL! Animation is like your love for
-                Coffee, goes to infinity and beyond. We turn Animation into
-                Powerful Communication.
+                The Best way to Stay Fit is to make your Content Hit! Trend is
+                like Clothes, it changes with Every Season. It is only Change
+                that is Constant, Everything else is Still
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -84,11 +88,11 @@ function SocialMedia() {
             </div>
             <div className="box">
               <img src={Pic16} alt="" />
-              <h3>Friendly Interactions</h3>
+              <h3>Emotion </h3>
               <p>
-                It’s Easy to be Complicated than to be Simple. A Convenient
-                Navigation Page delivers your message efficiently. We help you
-                Build Relationship with your Audience.
+                There’s no Promotion without Emotion. If your Content Cannot
+                Connect, It Cannot Affect. The Number of Posts doesn’t Matter,
+                If your Content is Silent
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -96,11 +100,11 @@ function SocialMedia() {
             </div>
             <div className="box">
               <img src={Pic17} alt="" />
-              <h3>Optimized for Mobile </h3>
+              <h3>Entertain </h3>
               <p>
-                Your website should Look Good on any Platform. The Users of
-                Smartphone are increasing exponentially, We help Improve your
-                Visitor’s Experience.
+                Content goes down the Drain, if it Cannot Entertain. Influence
+                people not only to SEE your Content but also to SHARE your
+                Content. Sometimes it is the Numbers that Create Wonders
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -110,7 +114,7 @@ function SocialMedia() {
         </section>
 
         <section className="aboutACSS sectionCSS" id="aboutACSS">
-          <h1 className="headingACSS"> Website Development service </h1>
+          <h1 className="headingACSS"> Game For Fame!</h1>
 
           <div className="column">
             <div className="image">
@@ -118,19 +122,20 @@ function SocialMedia() {
             </div>
 
             <div className="content">
-              <h3>Secret Sauce of Great Website </h3>
+              <h3>Secret Sauce Of Social Media </h3>
               <p>
-                The Vital Ingredient of a Great Website is to generate hunger
-                for What’s More! The Audience isn’t interested in “What You
-                Provide them” but in
+                Don’t Create Content that Survive, Create Content that Live!
+                According to Statistics, 89% who buy are 85% who Recommended the
+                Brand. Social Media is like “Traffic Sign” that Everyone
+                Follows.
               </p>
               <p>
-                “How You Provide Them”. More than 90% people credited fonts,
-                design, and structure to be the “Instant Connection” for them.
-                Don’t worry! Your Website’s Beauty is now Our Duty. We deliver
-                Top-notch services with the Finest Technology for you to be The
-                Best Player in Market. Our Highly Skilled Team helps address
-                both your planned and unplanned needs with great efficiency.
+                Don’t Worry, You can Join the Race too! We help Create
+                Emotionally Impactful and Creatively Exclusive Content to make
+                your Online Presence a Celebration for People. With Our Highly
+                Skilled Team, We Transform your Ideas into Great Social Media
+                Marketing. Join Us to Increase your Traffic and to Decrease your
+                Workload
               </p>
               <div className="buttons">
                 <a href="#" className="btnACSS">
@@ -145,33 +150,6 @@ function SocialMedia() {
             </div>
           </div>
         </section>
-
-        <div className="techACSS">
-          <h1 className="headingACSS1">technology We Use</h1>
-          <div className="box-containerACSS">
-            <div className="box">
-              <div className="col">
-                <img src={Pic18} />
-              </div>
-              <div className="col">
-                <img src={Pic19} />
-              </div>
-              <div className="col">
-                <img src={Pic24} />
-              </div>
-              <div className="col">
-                <img src={Pic23} />
-              </div>
-
-              <div className="col">
-                <img src={Pic21} />
-              </div>
-              {/* <div className="col">
-                <img src={D3} />
-              </div> */}
-            </div>
-          </div>
-        </div>
 
         <section class="reviewACSS sectionCSS" id="reviewACSS">
           <h1 class="headingACSS1"> people's review </h1>

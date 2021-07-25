@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -40,7 +40,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
@@ -197,11 +197,11 @@ section {
 }
 
 .team .member .member-info p {
-  font-style: italic;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
   color: #5e5e5e;
+  text-align: justify;
 }
 
 .team .member:hover {

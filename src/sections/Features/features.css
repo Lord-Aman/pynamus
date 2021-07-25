@@ -3,12 +3,12 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #4154f1;
+  color: linear-gradient(to right, #0b3257, #2a589e);
   text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -40,11 +40,10 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
   text-transform: uppercase;
 }
 
@@ -144,7 +143,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 3px;
 }
 

@@ -74,6 +74,15 @@ const MobileDrawer = () => {
                 <Dropdown.Item>
                   <Link path="/videoprod" label="Video Production" />
                 </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/contentwriting" label="Content Writing" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/leadgeneration" label="Lead Generation" />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Link path="/seomanagement" label="SEO Management" />
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Box>

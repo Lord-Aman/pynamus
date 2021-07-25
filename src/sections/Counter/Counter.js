@@ -29,16 +29,6 @@ class Counter extends Component {
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div className="counter blue">
-                <div classNameName="counter-icon">
-                  <i className="fa fa-globe"></i>
-                </div>
-                <span className="counter-value">130</span>
-
-                <h3>Web Designing</h3>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6">
-              <div className="counter blue">
                 <div className="counter-icon">
                   <i className="fa fa-rocket"></i>
                 </div>
@@ -49,10 +39,19 @@ class Counter extends Component {
             <div className="col-md-3 col-sm-6">
               <div className="counter blue">
                 <div className="counter-icon">
+                  <i className="fa fa-globe"></i>
+                </div>
+                <span className="counter-value">122</span>
+                <h3>Web Designing</h3>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="counter blue">
+                <div className="counter-icon">
                   <i className="fa fa-suitcase"></i>
                 </div>
                 <span className="counter-value">122</span>
-                <h3>Brabd Building</h3>
+                <h3>Brand Building</h3>
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
