@@ -15,7 +15,7 @@ class Counter extends Component {
             duration: 3500,
             easing: "swing",
             step: function (now) {
-              $(this).text(Math.ceil(now));
+              $(this).text(Math.ceil(now) + "+");
             },
           }
         );
@@ -32,17 +32,9 @@ class Counter extends Component {
                 <div className="counter-icon">
                   <i className="fa fa-rocket"></i>
                 </div>
-                <span className="counter-value">122</span>
-                <h3>Web Development</h3>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6">
-              <div className="counter blue">
-                <div className="counter-icon">
-                  <i className="fa fa-globe"></i>
-                </div>
-                <span className="counter-value">122</span>
-                <h3>Web Designing</h3>
+                <span className="counter-value">113</span>
+
+                <h3>Successful Projects</h3>
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
@@ -50,17 +42,26 @@ class Counter extends Component {
                 <div className="counter-icon">
                   <i className="fa fa-suitcase"></i>
                 </div>
-                <span className="counter-value">122</span>
-                <h3>Brand Building</h3>
+                <span className="counter-value">52</span>
+                <h3>Satisfied Clients</h3>
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
               <div className="counter blue">
                 <div className="counter-icon">
-                  <i className="fa fa-phone"></i>
+                  <i className="fa fa-globe"></i>
                 </div>
-                <span className="counter-value">122</span>
-                <h3>Responsive Design</h3>
+                <span className="counter-value">7</span>
+                <h3>Countries</h3>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="counter blue">
+                <div className="counter-icon">
+                  <i className="fa fa-smile"></i>
+                </div>
+                <span className="counter-value">210</span>
+                <h3>Happy %</h3>
               </div>
             </div>
           </div>

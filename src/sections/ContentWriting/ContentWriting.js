@@ -1,15 +1,7 @@
 import React from "react";
 import "./ContentWriting.css";
-import G1 from "./ContentWritingImages/g-1.jpg";
-import G2 from "./ContentWritingImages/g-2.jpg";
-import G3 from "./ContentWritingImages/g-3.jpg";
-import G4 from "./ContentWritingImages/g-4.jpg";
-import G5 from "./ContentWritingImages/g-5.jpg";
-import G6 from "./ContentWritingImages/g-6.jpg";
-import G7 from "./ContentWritingImages/g-7.jpg";
-import G8 from "./ContentWritingImages/g-8.jpg";
-import G9 from "./ContentWritingImages/g-9.jpg";
-import homeBCSSImg from "./ContentWritingImages/home-img.png";
+
+import Pic4 from "./ContentWritingImages/pic4.png";
 import Pic1 from "./ContentWritingImages/pic1.png";
 import Pic2 from "./ContentWritingImages/pic2.png";
 import Pic3 from "./ContentWritingImages/pic3.png";
@@ -20,35 +12,39 @@ import S3 from "./ContentWritingImages/s-3.svg";
 import S4 from "./ContentWritingImages/s-4.svg";
 import S5 from "./ContentWritingImages/s-5.svg";
 import S6 from "./ContentWritingImages/s-6.svg";
-
+import { Link } from "../../components/link";
 function ContentWriting() {
   return (
     <>
       <section className="sectionBCSS" className="homeBCSS" id="homeBCSS">
         <div className="content">
           <h3 className="h3BCSS">
-            <span>Graphic and Logo Designing Service</span>
+            <span>Content Is Everywhere</span>
           </h3>
+          <h3 className="h3BCSS">
+            <span>From a Signal Board to Posts You Share </span>
+          </h3>
+
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
-            accusamus tempore temporibus rem amet laudantium animi optio
-            voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit
-            incidunt rem quisquam eos!
+            Content is Indeed The King. Whatever We Read, We Share, We Create is
+            Content. Reason Why Everything Started at The First Place.
           </p>
-          <a href="#" className="btnBCSS">
-            contact Us
-          </a>
+          <Link path="/contactus">
+            <a href="#" className="btnBCSS">
+              Contact Us
+            </a>{" "}
+          </Link>
         </div>
 
         <div className="image">
-          <img src={homeBCSSImg} alt="" />
+          <img src={Pic4} alt="" />
         </div>
       </section>
 
       <section className="sectionBCSS" className="speciality" id="speciality">
         <h1 className="headingBCSS">
           {" "}
-          UI/UX <span>SERVICES</span>{" "}
+          DO<span> REMEMBER</span>{" "}
         </h1>
 
         <div className="box-container">
@@ -56,11 +52,11 @@ function ContentWriting() {
             <img className="image" src={S1} alt="" />
             <div className="content">
               <img src={S1} alt="" />
-              <h3 className="h3BCSS">Amazing UI Design</h3>
+              <h3 className="h3BCSS">Keep It Real </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                We get Attached to Things we Connect With. To build Trust, Be
+                Real with your Content. Stay Attached to Your Niche and Earn
+                Your Customers through Strong Values and Morals.
               </p>
             </div>
           </div>
@@ -68,11 +64,11 @@ function ContentWriting() {
             <img className="image" src={S2} alt="" />
             <div className="content">
               <img src={S2} alt="" />
-              <h3 className="h3BCSS">Soft And Smooth Animations</h3>
+              <h3 className="h3BCSS">Keep People In Mind</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                In the Long Run, We forget Why We Started. Don’t Write What You
+                Want, Write What People Want You To Write. Build Content that is
+                Relevant for Everyone.
               </p>
             </div>
           </div>
@@ -80,11 +76,12 @@ function ContentWriting() {
             <img className="image" src={S3} alt="" />
             <div className="content">
               <img src={S3} alt="" />
-              <h3 className="h3BCSS">User-Freindly Interactions</h3>
+              <h3 className="h3BCSS">Keep It Diverse </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                Content monetization is the Process of Producing Revenue from
+                Online Content. Content can be Text, Data, Images, Apps, Music
+                or Video. The Same Content can be a Blog post, a tweet, a
+                Facebook note, a Pinterest picture.
               </p>
             </div>
           </div>
@@ -92,11 +89,11 @@ function ContentWriting() {
             <img className="image" src={S4} alt="" />
             <div className="content">
               <img src={S4} alt="" />
-              <h3 className="h3BCSS">Logo Design</h3>
+              <h3 className="h3BCSS">Keep Writing </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                Remember that Good Content Builds Over Time. Quality takes Time,
+                Developing a plan and Building a Site takes Time. Remember that
+                Quality Suffers When You Spend Too Little Time or Money.
               </p>
             </div>
           </div>
@@ -104,11 +101,11 @@ function ContentWriting() {
             <img className="image" src={S5} alt="" />
             <div className="content">
               <img src={S5} alt="" />
-              <h3 className="h3BCSS">Graphic Animations</h3>
+              <h3 className="h3BCSS">Keep It Simple </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                Content Should Curate People to Read More. Don’t use Fancy Words
+                For People To Exit. “Over” is Now Over! Easy to Understand
+                Content Makes People Come Running For Your Blogs
               </p>
             </div>
           </div>
@@ -116,11 +113,11 @@ function ContentWriting() {
             <img className="image" src={S6} alt="" />
             <div className="content">
               <img src={S6} alt="" />
-              <h3 className="h3BCSS">Friendly Interactions</h3>
+              <h3 className="h3BCSS">Keep It Meaningful </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Assumenda inventore neque amet ipsa tenetur voluptates aperiam
-                tempore libero labore aut.
+                Always Make Sure Your Content Adds Value in People’s Lives. Dull
+                Captions and Meaningless Content Repels People Faster Than a
+                Mosquito Repellent Repelling Mosquito.
               </p>
             </div>
           </div>
@@ -129,7 +126,7 @@ function ContentWriting() {
       <section className="sectionBCSS" className="aboutBCSS" id="aboutBCSS">
         <h1 className="headingBCSS">
           {" "}
-          Graphic and Logo Designing <span>Service</span>{" "}
+          GOOD IMPRESSIONS ARE <span>GOOD FOR BUSINESS</span>{" "}
         </h1>
 
         <div className="column">
@@ -138,29 +135,31 @@ function ContentWriting() {
           </div>
 
           <div className="content">
-            <h3 className="h3BCSS">
-              Easy And Perfect Solution For Your Business Branding
-            </h3>
+            <h3 className="h3BCSS">Content Is A Deep Ocean</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              placeat deserunt saepe repudiandae veniam soluta minima dolor hic
-              aperiam iure.
+              Content is Everything. It Represents You, Builds You, Promotes
+              You, And Lives Forever. It is The Beginning Of Everything. Good
+              Writing Not Only Evoke Sensations that it is Raining but Helps
+              Imagine Being Rained Upon.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium, quaerat. Dolorem ratione saepe magni quo inventore
-              porro ab voluptates eos, nam eius provident accusantium, quia
-              similique est, repellendus et reiciendis.
+              Don’t Worry, You Don’t Have To Go Anywhere! We Create Unique &
+              Inventive Writing that Not Only Make People Love You But Make
+              People Want You More. With Our Highly Skilled Team Of Creative
+              Minds, We Help You Go Beyond Infinity
             </p>
             <div className="buttons">
-              <a href="#" className="btnBCSS">
-                {" "}
-                Contact Us{" "}
-              </a>
-              <a href="#" className="btnBCSS">
-                {" "}
-                home{" "}
-              </a>
+              <Link path="/contactus">
+                <a href="#" className="btnBCSS">
+                  Contact Us
+                </a>{" "}
+              </Link>
+              <Link path="/contactus" label="">
+                <a href="#" className="btnBCSS">
+                  {" "}
+                  Home{" "}
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -169,185 +168,86 @@ function ContentWriting() {
       <section className="sectionBCSS" className="popular" id="popular">
         <h1 className="headingBCSS">
           {" "}
-          most <span>popular Design</span> services{" "}
+          GO <span>BEYOND THAN</span> INFINITY{" "}
         </h1>
 
         <div className="box-container">
           <div className="box">
-            <span className="price"> UI-Design </span>
+            <span className="price"> Creative </span>
             <img src={S1} alt="" />
-            <h3 className="h3BCSS">UI-Design</h3>
+            <h3 className="h3BCSS">Creative</h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
           </div>
           <div className="box">
-            <span className="price"> UX-Design </span>
+            <span className="price"> Clarity </span>
             <img src={S2} alt="" />
-            <h3 className="h3BCSS">UX-Design</h3>
+            <h3 className="h3BCSS">Clarity</h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
           </div>
           <div className="box">
-            <span className="price"> Logo-design </span>
+            <span className="price"> Collective </span>
             <img src={S3} alt="" />
-            <h3 className="h3BCSS">Logo-design</h3>
+            <h3 className="h3BCSS">Collective </h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
           </div>
           <div className="box">
-            <span className="price"> Graphics-design </span>
+            <span className="price"> Charming </span>
             <img src={S4} alt="" />
-            <h3 className="h3BCSS">Graphics-design</h3>
+            <h3 className="h3BCSS">Charming </h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
           </div>
-          <div className="box">
-            <span className="price"> Logo-design </span>
+          {/* <div className="box">
+            <span className="price"> Considerable </span>
             <img src={S5} alt="" />
-            <h3 className="h3BCSS">Logo-design</h3>
+            <h3 className="h3BCSS"> Considerable</h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
-          </div>
-          <div className="box">
-            <span className="price"> Graphics-design </span>
+          </div> */}
+          {/* <div className="box">
+            <span className="price"> Connect </span>
             <img src={S6} alt="" />
-            <h3 className="h3BCSS">Graphics-design</h3>
+            <h3 className="h3BCSS">Connect</h3>
             <a href="#" className="btnBCSS">
               Read More
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <div className="step-container">
         <h1 className="headingBCSS">
-          how We <span>work</span>
+          how We <span>Write</span>
         </h1>
 
         <section className="sectionBCSS" className="steps">
           <div className="box">
             <img src={S0} alt="" />
-            <h3 className="h3BCSS">Design-thinking</h3>
+            <h3 className="h3BCSS">Connect</h3>
           </div>
           <div className="box">
             <img src={S4} alt="" />
-            <h3 className="h3BCSS">take User Feedback</h3>
+            <h3 className="h3BCSS">Create</h3>
           </div>
           <div className="box">
             <img src={S1} alt="" />
-            <h3 className="h3BCSS">Create a Design</h3>
+            <h3 className="h3BCSS">Craft</h3>
           </div>
           <div className="box">
             <img src={S5} alt="" />
-            <h3 className="h3BCSS">finally, It's Done</h3>
+            <h3 className="h3BCSS">Complete</h3>
           </div>
         </section>
       </div>
 
-      <section className="sectionBCSS" className="gallery" id="gallery">
-        <h1 className="headingBCSS">
-          {" "}
-          our <span> Designs </span>{" "}
-        </h1>
-
-        <div className="box-container">
-          <div className="box">
-            <img src={G1} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Amazing UI</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G2} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Soft Animations</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G3} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">User-Freindly</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G4} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Logo Design</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G5} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Graphic Animations</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G6} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Freindly Interactions</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G7} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Amazing UI</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G8} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Amazing UI</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <img src={G9} alt="" />
-            <div className="content">
-              <h3 className="h3BCSS">Amazing UI</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Deleniti, ipsum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="sectionBCSS" className="review" id="review">
         <h1 className="headingBCSS">
           {" "}
@@ -357,7 +257,7 @@ function ContentWriting() {
         <div className="box-container">
           <div className="box">
             <img src={Pic1} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Shweta Das</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -366,14 +266,15 @@ function ContentWriting() {
               <i className="far fa-star"></i>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
-              rem. Itaque.
+              Definitely Changed My Thoughts Into Reality. Amazing Dedication
+              And Hard Work. Their Flexibility And Ability To Understand
+              Client’s Demand Is Great. They Understand Meaningful Marketing And
+              Helped Us Do The Same.
             </p>
           </div>
           <div className="box">
             <img src={Pic2} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Aman Kumar</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -382,14 +283,15 @@ function ContentWriting() {
               <i className="far fa-star"></i>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
-              rem. Itaque.
+              Just at loss of words, I appreciate the eye-tempting designs. The
+              new site is absolutely user-friendly. They are created with
+              thorough understanding of what I really wanted. Communication was
+              super-easy, loved it
             </p>
           </div>
           <div className="box">
             <img src={Pic3} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Akansha Kumari </h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -398,9 +300,10 @@ function ContentWriting() {
               <i className="far fa-star"></i>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              delectus, ducimus facere quod ratione vel laboriosam? Est, maxime
-              rem. Itaque.
+              Impressed With Their Service Quality And Working Strategy. They
+              Have A Dedicated Team To Ensure All Your Needs. Loved Working With
+              Them. So Attractive And Easy To Use, Reduced The Loading Time
+              Significantly By Use Of Proper Technology.
             </p>
           </div>
         </div>

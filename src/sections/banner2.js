@@ -60,10 +60,10 @@ const styles = {
     flex: ["0 0 100%", null, null, null, "0 0 50%", "0 0 40%"],
     h2: {
       fontFamily: "montserrat",
-      fontWeight: "semi-bold",
+      fontWeight: "511",
       color: "#02073E",
       letterSpacing: "-1px",
-      fontSize: ["28px", null, "32px", null, null, "45px", "55px"],
+      fontSize: ["28px", null, "32px", null, null, "40px", "55px"],
       lineHeight: 1.45,
       maxWidth: "546px",
       mb: "10px",

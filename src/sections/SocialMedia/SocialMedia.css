@@ -7,7 +7,9 @@
   --pink: #4589d6;
   --gradient: linear-gradient(90deg, var(--purple), var(--pink));
 }
-
+.headingACSS {
+  font-weight: bold;
+}
 .allCSS {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -17,6 +19,9 @@
   outline: none;
   border: none;
   text-transform: capitalize;
+}
+.headingACSS1 {
+  font-weight: bold;
 }
 
 .allCSS::selection {
@@ -134,7 +139,8 @@ html {
 
 .featuresACSS .box-containerACSS .box h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: #4589d6;
+  font-weight: bold;
   padding-top: 1rem;
 }
 
@@ -150,6 +156,12 @@ html {
   background-position: center;
   padding-bottom: 3rem;
 }
+.techCSS {
+  background-color: #fff;
+}
+.reviewACSS {
+  background-color: #fff;
+}
 
 .aboutACSS .column {
   display: flex;
@@ -159,7 +171,7 @@ html {
 }
 
 .aboutACSS .column .image {
-  flex: 1 1 40rem;
+  flex: 1 1 35rem;
 }
 
 .aboutACSS .column .image img {

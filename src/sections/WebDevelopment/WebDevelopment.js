@@ -13,7 +13,7 @@ import REACT from "./WebDevImages/react.png";
 import VUE from "./WebDevImages/vuejs.png";
 import Pic1 from "./WebDevImages/pic1.png";
 import Pic3 from "./WebDevImages/pic3.png";
-
+import { Link } from "../../components/link";
 function WebDevelopment() {
   return (
     <div className="html">
@@ -28,7 +28,11 @@ function WebDevelopment() {
               24*7
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
@@ -102,7 +106,7 @@ function WebDevelopment() {
             </div>
 
             <div className="content">
-              <h3>Secret Sauce of Great Website </h3>
+              <h3>Create Websites That Sell </h3>
               <p>
                 The Vital Ingredient of a Great Website is to generate hunger
                 for What’s More! The Audience isn’t interested in “What You
@@ -117,46 +121,50 @@ function WebDevelopment() {
                 both your planned and unplanned needs with great efficiency.
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
         </section>
+        <section className="techCSS">
+          <div className="techACSS">
+            <h1 className="headingACSS1">technology We Use</h1>
+            <div className="box-containerACSS">
+              <div className="box">
+                <div className="col">
+                  <img src={HTML} />
+                </div>
+                <div className="col">
+                  <img src={CSS} />
+                </div>
+                <div className="col">
+                  <img src={REACT} />
+                </div>
+                <div className="col">
+                  <img src={JS} />
+                </div>
 
-        <div className="techACSS">
-          <h1 className="headingACSS1">technology We Use</h1>
-          <div className="box-containerACSS">
-            <div className="box">
-              <div className="col">
-                <img src={HTML} />
-              </div>
-              <div className="col">
-                <img src={CSS} />
-              </div>
-              <div className="col">
-                <img src={REACT} />
-              </div>
-              <div className="col">
-                <img src={JS} />
-              </div>
-
-              <div className="col">
-                <img src={VUE} />
-              </div>
-              {/* <div className="col">
+                <div className="col">
+                  <img src={VUE} />
+                </div>
+                {/* <div className="col">
                 <img src={D3} />
               </div> */}
+              </div>
             </div>
           </div>
-        </div>
-
+        </section>
         <section class="reviewACSS sectionCSS" id="reviewACSS">
           <h1 class="headingACSS1"> people's review </h1>
 
@@ -170,7 +178,7 @@ function WebDevelopment() {
                   Impressed with their service quality and working strategy.
                   They have a dedicated team to ensure all your needs. Loved
                   working with them. So attractive and easy to use, reduced the
-                  loading time significantly by use of proper technology.
+                  loading time significantly .
                 </div>
               </div>
             </div>

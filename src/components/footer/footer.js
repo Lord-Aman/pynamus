@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./footer.css";
+import { Link } from "../link";
 function footer() {
   return (
     <footer id="footer">
@@ -14,6 +15,7 @@ function footer() {
                 203, 2nd Floor, Silver Arc Plaza, <br></br>
                 Janjeerwala Square, Near 56 Dukaan,<br></br>
                 Indore, Madhya Pradesh - 452001 <br></br>
+                <br />
                 <strong>Phone:</strong> +91 99931 81660<br></br>
                 <strong>Email:</strong> info@techmastergogo.com<br></br>
               </p>
@@ -66,37 +68,59 @@ function footer() {
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/webdev">Web Development</a>
+                  <a href="/webdev">
+                    <Link path="/webdev" label="Web Development"></Link>
+                  </a>
                 </li>
 
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/appdev">App Development</a>
+                  <a href="/appdev">
+                    <Link path="/appdev" label="App Development"></Link>
+                  </a>
                 </li>
 
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/socialmedia">Social Media Management</a>
+                  <a href="/socialmedia">
+                    <Link
+                      path="/socialmedia"
+                      label="Social Media Management"
+                    ></Link>
+                  </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/graphicdesign">Graphic and Logo Design</a>
+                  <a href="/graphicdesign">
+                    <Link
+                      path="/graphicdesign"
+                      label="Graphic & Logo Design"
+                    ></Link>
+                  </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/contentwriting">Content Marketing</a>
+                  <a href="/contentwriting">
+                    <Link path="/contentwriting" label="Content Writing"></Link>
+                  </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="/leadgeneration">Lead Generation</a>
+                  <a href="/leadgeneration">
+                    <Link path="/leadgeneration" label="Lead Generation"></Link>
+                  </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="videoprod">Video Production</a>
+                  <a href="videoprod">
+                    <Link path="/videoprod" label="Video Production"></Link>
+                  </a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>{" "}
-                  <a href="seomanagement">SEO Management</a>
+                  <a href="seomanagement">
+                    <Link path="/seomanagement" label="SEO Management"></Link>
+                  </a>
                 </li>
               </ul>
             </div>

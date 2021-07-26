@@ -1,42 +1,25 @@
 import React from "react";
 import "./VideoProduction.css";
-import homeImg from "./VideoProductionImages/home-img.png";
-import fIcon1 from "./VideoProductionImages/f-icon1.svg";
-import fIcon2 from "./VideoProductionImages/f-icon2.svg";
-import fIcon3 from "./VideoProductionImages/f-icon3.svg";
-import AboutImg from "./VideoProductionImages/about-img.svg";
-import HTML from "./VideoProductionImages/html.png";
-import CSS from "./VideoProductionImages/css.png";
-import JS from "./VideoProductionImages/js.png";
-import REACT from "./VideoProductionImages/react.png";
-import VUE from "./VideoProductionImages/vuejs.png";
-import Pic1 from "./VideoProductionImages/pic1.png";
-import Pic2 from "./VideoProductionImages/pic2.png";
-import Pic3 from "./VideoProductionImages/pic3.png";
 
-import Pic7 from "./VideoProductionImages/pic7.png";
-import Pic8 from "./VideoProductionImages/pic8.png";
-import Pic9 from "./VideoProductionImages/pic9.png";
-import Pic10 from "./VideoProductionImages/pic10.png";
-import Pic11 from "./VideoProductionImages/pic11.png";
-import Pic12 from "./VideoProductionImages/pic12.png";
+import Pic1 from "./VideoProductionImages/pic1.png";
+import Pic3 from "./VideoProductionImages/pic3.png";
+import { Link } from "../../components/link";
+
 import Pic13 from "./VideoProductionImages/pic13.png";
 import Pic14 from "./VideoProductionImages/pic14.png";
 import Pic15 from "./VideoProductionImages/pic15.png";
-import Pic16 from "./VideoProductionImages/pic16.png";
 import Pic17 from "./VideoProductionImages/pic17.png";
-
 import Pic18 from "./VideoProductionImages/pic18.png";
-
 import Pic19 from "./VideoProductionImages/pic19.png";
-
 import Pic20 from "./VideoProductionImages/pic20.png";
 import Pic21 from "./VideoProductionImages/pic21.png";
 import Pic22 from "./VideoProductionImages/pic22.png";
 import Pic23 from "./VideoProductionImages/pic23.png";
 import Pic24 from "./VideoProductionImages/pic24.png";
 import Pic25 from "./VideoProductionImages/pic25.png";
-import Pic26 from "./VideoProductionImages/pic26.png";
+// import Pic26 from "./VideoProductionImages/pic26.png";
+import Pic26 from "./VideoProductionImages/pic26.jpg";
+import Pic27 from "./VideoProductionImages/pic27.jpg";
 
 function VideoProduction() {
   return (
@@ -45,16 +28,22 @@ function VideoProduction() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-            VIDEO AND <span> ANIMATION</span>
+              VIDEO AND <span> ANIMATION</span>
             </h3>
-            <h2>
-            BUILDS VISUAL<span> FOUNDATION </span>
-            </h2>
+            <h1>
+              BUILDS VISUAL<span> FOUNDATION </span>
+            </h1>
             <p>
-            Video Boosts Sales to a Great Extent. Promotes your Brand at Places You Can’t Reach. It’s not the Product YOU SELL but the Story You TELL!
+              Video Boosts Sales to a Great Extent. Promotes your Brand at
+              Places You Can’t Reach. It’s not the Product YOU SELL but the
+              Story You TELL!
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
@@ -71,7 +60,9 @@ function VideoProduction() {
               <img src={Pic25} alt="" />
               <h3>Real Estate Video Services</h3>
               <p>
-              It is believed that Videography helps rise Offers and Requests from Potential Clients. Video puts a face to the Brand, which Elevate Sales.
+                It is believed that Videography helps rise Offers and Requests
+                from Potential Clients. Video puts a face to the Brand, which
+                Elevate Sales.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -79,10 +70,11 @@ function VideoProduction() {
             </div>
 
             <div className="box">
-              <img src={Pic24} alt="" />
+              <img src={Pic14} alt="" />
               <h3>Commercial/Advertising Video Services</h3>
               <p>
-              92% B2B prospects consume Online Video. A Commercial helps you Convey Audience Why Your Product Is Best from The Rest. 
+                92% B2B prospects consume Online Video. A Commercial helps you
+                Convey Audience Why Your Product Is Best from The Rest.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -92,17 +84,19 @@ function VideoProduction() {
               <img src={Pic23} alt="" />
               <h3>Promotional Documentary Video Services</h3>
               <p>
-              A Promotional Video makes a Better Impression of Your Product. It adds Value & Life in Your Brand. Captures Attention Faster than Light 
+                A Promotional Video makes a Better Impression of Your Product.
+                It adds Value & Life in Your Brand.
               </p>
               <a href="#" className="btnACSS">
                 read more
               </a>
             </div>
             <div className="box">
-              <img src={Pic26} alt="" />
+              <img src={Pic24} alt="" />
               <h3>Corporate Video Services</h3>
               <p>
-              Communication of Your Brand is Crucial than Sales. Nobody Purchase Essential Goods From Unknown Sites. 
+                Communication of Your Brand is Crucial than Sales. Nobody
+                Purchase Essential Goods From Unknown Sites.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -112,7 +106,9 @@ function VideoProduction() {
               <img src={Pic22} alt="" />
               <h3>Educational Video Services</h3>
               <p>
-              The Most Visited YouTube Pages are of Educational Channels. Video Formatting has helped Students Learn Faster Thus Increased its Demand to Several Folds
+                The Most Visited YouTube Pages are of Educational Channels.
+                Video Formatting has helped Students Learn Faster Thus Increased
+                its Demand to Several Folds
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -122,7 +118,9 @@ function VideoProduction() {
               <img src={Pic21} alt="" />
               <h3>Social Media Video Services</h3>
               <p>
-              Video allows to Concise and Capture User’s Interest in Seconds. The Short Videos on Social Media are easily Digestible which Makes People Want It More. 
+                Video allows to Concise and Capture User’s Interest in Seconds.
+                The Short Videos on Social Media are easily Digestible which
+                Makes People Want It More.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -140,24 +138,31 @@ function VideoProduction() {
             </div>
 
             <div className="content">
-              <h3>Secret Sauce Of Great Videos </h3>
+              <h3>VIDEOS That Tell You A STORY </h3>
               <p>
-              It is No Secret that 5 Billion YouTube Videos are Being Watched On a Daily Basis. People have Started to Watch More and Read Less. Video Outperforms any other Marketing Tools.
+                It is No Secret that 5 Billion YouTube Videos are Being Watched
+                On a Daily Basis. People have Started to Watch More and Read
+                Less. Video Outperforms any other Marketing Tools.
               </p>
               <p>
-              Don’t Worry, We Create Amazing Videos Across all Departments!
-              Our Strong Marketing Strategy with Brilliant Scriptwriting and Storytelling Services helps Script, Shoot, Edit, Produce & Share your Video Widely and Supports Marketing Goals
-
+                Don’t Worry, We Create Amazing Videos Across all Departments!
+                Our Strong Marketing Strategy with Brilliant Scriptwriting and
+                Storytelling Services helps Script, Shoot, Edit, Produce & Share
+                your Video Widely and Supports Marketing Goals
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -192,11 +197,14 @@ function VideoProduction() {
           <div class="box-containerACSS">
             <div class="box">
               <div class="userACSS">
-                <img src={Pic1} alt="" />
-                <h3>john deo</h3>
+                <img src={Pic26} alt="" />
+                <h3>Anamica Bezofs</h3>
 
                 <div class="comment">
-                They’ve Met My Every Goal And Expectation. The Ideas Presented By Them Were Really Helpful To Set Us Apart From The Competitors. Helped Us Achieve A Lot More Than What We Expected.
+                  They’ve Met My Every Goal And Expectation. The Ideas Presented
+                  By Them Were Really Helpful To Set Us Apart From The
+                  Competitors. Helped Us Achieve A Lot More Than What We
+                  Expected.
                 </div>
               </div>
             </div>
@@ -218,11 +226,14 @@ function VideoProduction() {
             */}
             <div class="box">
               <div class="userACSS">
-                <img src={Pic3} alt="" />
-                <h3>john deo</h3>
+                <img src={Pic27} alt="" />
+                <h3>Joe Biden</h3>
 
                 <div class="comment">
-                I Was Amazed By Their Quality Of Service. The Team Is Filled With Energy And Enthusiasm. The Strategies And Creativity Helped Us Reach A Whole New Bar In The Marketplace. Enjoyed Working With Them
+                  I Was Amazed By Their Quality Of Service. The Team Is Filled
+                  With Energy And Enthusiasm. The Strategies And Creativity
+                  Helped Us Reach A Whole New Bar In The Marketplace. Enjoyed
+                  Working With Them
                 </div>
               </div>
             </div>

@@ -1,33 +1,16 @@
 import React from "react";
 import "./SocialMedia.css";
-// import homeImg from "./SocialMediaImages/home-img.png";
-// import fIcon1 from "./SocialMediaImages/f-icon1.svg";
-// import fIcon2 from "./SocialMediaImages/f-icon2.svg";
-// import fIcon3 from "./SocialMediaImages/f-icon3.svg";
-// import AboutImg from "./SocialMediaImages/about-img.svg";
-import HTML from "./SocialMediaImages/html.png";
-import CSS from "./SocialMediaImages/css.png";
-import JS from "./SocialMediaImages/js.png";
-import REACT from "./SocialMediaImages/react.png";
-import VUE from "./SocialMediaImages/vuejs.png";
+
 import Pic1 from "./SocialMediaImages/pic1.png";
 import Pic3 from "./SocialMediaImages/pic3.png";
 import Pic11 from "./SocialMediaImages/pic11.png";
-import Pic12 from "./SocialMediaImages/pic12.gif";
+
 import Pic13 from "./SocialMediaImages/pic13.png";
 import Pic14 from "./SocialMediaImages/pic14.png";
 import Pic15 from "./SocialMediaImages/pic15.gif";
 import Pic16 from "./SocialMediaImages/pic16.gif";
 import Pic17 from "./SocialMediaImages/pic17.png";
-import Pic18 from "./SocialMediaImages/pic18.png";
-import Pic19 from "./SocialMediaImages/pic19.png";
-import Pic20 from "./SocialMediaImages/pic20.png";
-import Pic21 from "./SocialMediaImages/pic21.png";
-import Pic22 from "./SocialMediaImages/pic22.png";
-import Pic23 from "./SocialMediaImages/pic23.png";
-import Pic24 from "./SocialMediaImages/pic24.png";
-import Pic25 from "./SocialMediaImages/pic25.png";
-import Pic26 from "./SocialMediaImages/pic26.png";
+import { Link } from "../../components/link";
 
 function SocialMedia() {
   return (
@@ -36,10 +19,8 @@ function SocialMedia() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-              Social Media <span> Management </span>
+              Provide for the PEOPLE <span>PEOPLE will provide you! </span>
             </h3>
-            <h2>Provide for the PEOPLE</h2>
-            <h2>PEOPLE will provide you!</h2>
 
             <p>
               Social Media holds the power to turn Illusion into Reality. In a
@@ -48,7 +29,11 @@ function SocialMedia() {
               IMPRESS
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
@@ -58,7 +43,7 @@ function SocialMedia() {
         </section>
 
         <section className="featuresACSS sectionCSS" id="featuresACSS">
-          <h1 className="headingACSS"> Your Website’s Beauty is Our Duty! </h1>
+          <h1 className="headingACSS"> THINK LIKE A WIZARD! </h1>
 
           <div className="box-containerACSS">
             <div className="box">
@@ -138,14 +123,18 @@ function SocialMedia() {
                 Workload
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -164,7 +153,7 @@ function SocialMedia() {
                   Impressed with their service quality and working strategy.
                   They have a dedicated team to ensure all your needs. Loved
                   working with them. So attractive and easy to use, reduced the
-                  loading time significantly by use of proper technology.
+                  loading time significantly .
                 </div>
               </div>
             </div>

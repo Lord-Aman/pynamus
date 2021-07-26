@@ -119,7 +119,7 @@ function Testimonials() {
                   Definitely changed my thoughts into reality. Amazing
                   dedication and hard work. Their flexibility and ability to
                   understand client’s demand is great. They understand
-                  meaningful marketing and helped us do the same.
+                  meaningful marketing .
                 </p>
               </div>
             </div>

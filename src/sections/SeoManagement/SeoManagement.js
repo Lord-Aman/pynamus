@@ -5,12 +5,8 @@ import fIcon1 from "./SeoManagementImages/f-icon1.svg";
 import fIcon2 from "./SeoManagementImages/f-icon2.svg";
 import fIcon3 from "./SeoManagementImages/f-icon3.svg";
 import AboutImg from "./SeoManagementImages/about-img.svg";
-import HTML from "./SeoManagementImages/html.png";
-import CSS from "./SeoManagementImages/css.png";
-import JS from "./SeoManagementImages/js.png";
-// import D3 from "./SeoManagementImages/d3.png";
-import REACT from "./SeoManagementImages/react.png";
-import VUE from "./SeoManagementImages/vuejs.png";
+import { Link } from "../../components/link";
+
 import Pic1 from "./SeoManagementImages/pic1.png";
 import Pic3 from "./SeoManagementImages/pic3.png";
 
@@ -21,13 +17,18 @@ function SeoManagement() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-             SEO is not Content Creation <span>It is Content Promotion </span>
+              SEO is not Content Creation <span>It is Content Promotion </span>
             </h3>
             <p>
-            SEO is not something you do anymore, its what happens when you do everything else right. 
+              SEO is not something you do anymore, its what happens when you do
+              everything else right.
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
@@ -44,7 +45,10 @@ function SeoManagement() {
               <img src={fIcon1} alt="" />
               <h3>Mobile SEO Strategy</h3>
               <p>
-              While it’s not an entirely separate process, there are distinct considerations for mobile SEO like monitoring page speed, responsive site design, local SEO, and creating content that is high-quality, regardless of device it’s viewed on.
+                While it’s not an entirely separate process, there are distinct
+                considerations for mobile SEO like monitoring page speed,
+                responsive site design, local SEO, and creating content that is
+                high-quality, regardless of device it’s viewed on.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -55,7 +59,11 @@ function SeoManagement() {
               <img src={fIcon2} alt="" />
               <h3>Making list of topics </h3>
               <p>
-              To start, compile a list of about 10 words and terms associated with your product or service. Use an SEO tool ( Google's Keyword Tool, Ahrefs , SEMRush or GrowthBar just to name a few) to research these words, identify their search volume, and come up with variations that make sense for your business. 
+                To start, compile a list of about 10 words and terms associated
+                with your product or service. Use an SEO tool ( Google's Keyword
+                Tool, Ahrefs , SEMRush or GrowthBar just to name a few) to
+                research these words, identify their search volume, and come up
+                with variations that make sense for your business.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -65,7 +73,10 @@ function SeoManagement() {
               <img src={fIcon2} alt="" />
               <h3>Set up a blog</h3>
               <p>
-              Blogging can be an incredible way to rank for keywords and engage your website's users. After all, every blog post is a new web page and an additional opportunity to rank in SERPs. If your business does not already have a blog, consider creating one.
+                Blogging can be an incredible way to rank for keywords and
+                engage your website's users. After all, every blog post is a new
+                web page and an additional opportunity to rank in SERPs. If your
+                business does not already have a blog, consider creating one.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -75,7 +86,10 @@ function SeoManagement() {
               <img src={fIcon3} alt="" />
               <h3> Stay up-to-date on SEO news </h3>
               <p>
-              Just like marketing, the search engine landscape is ever-evolving. Staying on top of current trends and best practices is an important strategy, and there are multiple online resources that can help you do so. 
+                Just like marketing, the search engine landscape is
+                ever-evolving. Staying on top of current trends and best
+                practices is an important strategy, and there are multiple
+                online resources that can help you do so.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -85,7 +99,10 @@ function SeoManagement() {
         </section>
 
         <section className="aboutACSS sectionCSS" id="aboutACSS">
-          <h1 className="headingACSS"> Create A Strategy That Supports Your Business Goals </h1>
+          <h1 className="headingACSS">
+            {" "}
+            Create A Strategy That Supports Your Business Goals{" "}
+          </h1>
 
           <div className="column">
             <div className="image">
@@ -95,51 +112,33 @@ function SeoManagement() {
             <div className="content">
               <h3>Secret Sauce of Great SEO </h3>
               <p>
-              Ranking in search pages can be difficult. While it may seem enticing to create content that is centered around high-traffic keywords, that strategy may not help you meet your business goals.
+                Ranking in search pages can be difficult. While it may seem
+                enticing to create content that is centered around high-traffic
+                keywords, that strategy may not help you meet your business
+                goals.
               </p>
               <p>
-              Instead, opt to create an SEO strategy that helps you address your individual business needs, like increasing customer acquisition, for greater marketing success.
+                Instead, opt to create an SEO strategy that helps you address
+                your individual business needs, like increasing customer
+                acquisition, for greater marketing success.
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
         </section>
-
-        <div className="techACSS">
-          <h1 className="headingACSS1">technology We Use</h1>
-          <div className="box-containerACSS">
-            <div className="box">
-              <div className="col">
-                <img src={HTML} />
-              </div>
-              <div className="col">
-                <img src={CSS} />
-              </div>
-              <div className="col">
-                <img src={REACT} />
-              </div>
-              <div className="col">
-                <img src={JS} />
-              </div>
-
-              <div className="col">
-                <img src={VUE} />
-              </div>
-              {/* <div className="col">
-                <img src={D3} />
-              </div> */}
-            </div>
-          </div>
-        </div>
 
         <section class="reviewACSS sectionCSS" id="reviewACSS">
           <h1 class="headingACSS1"> people's review </h1>

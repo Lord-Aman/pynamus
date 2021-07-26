@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./ContactUs.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-
+import { Link } from "../../components/link";
 class ContactUs extends Component {
   componentDidMount() {
     const signUpButton = document.getElementById("signUp");
@@ -27,14 +27,36 @@ class ContactUs extends Component {
               <form className="formCSS" action="#">
                 <h1 className="h1CSS">Contact Us</h1>
                 <div className="social-containerCSS">
-                  <a href="#" className="social aCSS">
+                  <a
+                    href="https://www.facebook.com/100523885207584/"
+                    target="_blank"
+                    className="social aCSS"
+                  >
                     <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/techmastergogo/?utm_medium=copy_link"
+                    target="_blank"
+                    className="social aCSS"
+                  >
+                    <i className="fab fa-instagram"></i>
                   </a>
                   <a href="#" className="social aCSS">
                     <i className="fab fa-google-plus-g"></i>
                   </a>
-                  <a href="#" className="social aCSS">
+                  <a
+                    href="https://www.linkedin.com/company/tech-master-gogo"
+                    target="_blank"
+                    className="social aCSS"
+                  >
                     <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/TechMasterGogo?s=08"
+                    target="_blank"
+                    className="social aCSS"
+                  >
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </div>
                 <span className="spanCSS">
@@ -65,14 +87,36 @@ class ContactUs extends Component {
               <form className="formCSS" action="#">
                 <h1 className="h1CSS">Follow Us</h1>
                 <div className="social-containerCSS">
-                  <a href="#" className="social aCSS">
+                  <a
+                    href="https://www.facebook.com/100523885207584/"
+                    target="_blank"
+                    className="social aCSS"
+                  >
                     <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/techmastergogo/?utm_medium=copy_link"
+                    target="_blank"
+                    className="social aCSS"
+                  >
+                    <i className="fab fa-instagram"></i>
                   </a>
                   <a href="#" className="social aCSS">
                     <i className="fab fa-google-plus-g"></i>
                   </a>
-                  <a href="#" className="social aCSS">
+                  <a
+                    href="https://www.linkedin.com/company/tech-master-gogo"
+                    target="_blank"
+                    className="social aCSS"
+                  >
                     <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/TechMasterGogo?s=08"
+                    target="_blank"
+                    className="social aCSS"
+                  >
+                    <i className="fab fa-twitter"></i>
                   </a>
                 </div>
                 <span className="spanCSS">Fill the Given Details</span>
@@ -91,10 +135,17 @@ class ContactUs extends Component {
                   type="Contact Number"
                   placeholder="Contact Number"
                 />
-
-                <a className="aCSS gotoWebsite" href="/">
-                  Go Back to Our website
-                </a>
+                <Link path="/" label="" style={{ marginTop: "20px" }}>
+                  <a
+                    className="aCSS buttonCSS"
+                    style={{
+                      padding: "16px",
+                    }}
+                    href="/"
+                  >
+                    Go to website
+                  </a>
+                </Link>
                 {/* <button className="buttonCSS">Next</button> */}
               </form>
             </div>

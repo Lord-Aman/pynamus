@@ -1,10 +1,6 @@
 import React from "react";
 import "./AppDevelopment.css";
-import homeImg from "./AppDevImages/home-img.png";
-import fIcon1 from "./AppDevImages/f-icon1.svg";
-import fIcon2 from "./AppDevImages/f-icon2.svg";
-import fIcon3 from "./AppDevImages/f-icon3.svg";
-import AboutImg from "./AppDevImages/about-img.svg";
+
 import HTML from "./AppDevImages/html.png";
 import CSS from "./AppDevImages/css.png";
 import JS from "./AppDevImages/js.png";
@@ -12,7 +8,6 @@ import JS from "./AppDevImages/js.png";
 import REACT from "./AppDevImages/react.png";
 import VUE from "./AppDevImages/vuejs.png";
 import Pic1 from "./AppDevImages/pic1.png";
-import Pic2 from "./AppDevImages/pic2.png";
 import Pic3 from "./AppDevImages/pic3.png";
 import Pic11 from "./AppDevImages/pic11.png";
 import Pic12 from "./AppDevImages/pic12.png";
@@ -20,6 +15,7 @@ import Pic13 from "./AppDevImages/pic13.png";
 import Pic14 from "./AppDevImages/pic14.png";
 import Pic15 from "./AppDevImages/pic15.png";
 import Pic16 from "./AppDevImages/pic16.png";
+import { Link } from "../../components/link";
 
 function AppDevelopment() {
   return (
@@ -35,7 +31,11 @@ function AppDevelopment() {
               Anywhere!
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
@@ -79,8 +79,7 @@ function AppDevelopment() {
               <p>
                 TechMasterGoGo is always eager to help your App Grow by
                 Perfection, Intensifying its Functionality According to your
-                Direction, and Presenting leading-edge Mobile Experiences to
-                Keep your Users Continuously Engaged.
+                Direction, and Presenting leading-edge Mobile Experiences.
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -125,14 +124,18 @@ function AppDevelopment() {
                 Situation its Hosted.
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -178,7 +181,7 @@ function AppDevelopment() {
                   Impressed with their service quality and working strategy.
                   They have a dedicated team to ensure all your needs. Loved
                   working with them. So attractive and easy to use, reduced the
-                  loading time significantly by use of proper technology.
+                  loading time.
                 </div>
               </div>
             </div>

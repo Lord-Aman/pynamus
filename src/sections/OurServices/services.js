@@ -57,7 +57,7 @@ const services = () => {
                   <div className="col-md-6 icon-box">
                     <i className="ri-magic-line"></i>
                     <div>
-                      <h4>Graphics and Logo Designing</h4>
+                      <h4>Graphics & Logo Designing</h4>
                       <p>
                         Key to build professional brand; We produce strong
                         visual foundation to meet demand.
@@ -68,7 +68,7 @@ const services = () => {
                   <div className="col-md-6 icon-box">
                     <i className="ri-command-line"></i>
                     <div>
-                      <h4>Logo Designing</h4>
+                      <h4>SEO Management</h4>
                       <p>
                         Grab the attention; We help create strong impression.
                       </p>
@@ -117,7 +117,9 @@ const services = () => {
             <h2>Services</h2>
             <p>
               Happy to help you <br />
-              ~It’s Not What You Do, It’s How You Do It~
+              <span className="makeOrange">
+                ~It’s Not What You Do, It’s How You Do It~
+              </span>
             </p>
           </header>
 

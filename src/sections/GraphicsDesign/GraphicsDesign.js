@@ -9,8 +9,7 @@ import G6 from "./GraphicsDesignImages/g-6.jpg";
 import G7 from "./GraphicsDesignImages/g-7.jpg";
 import G8 from "./GraphicsDesignImages/g-8.jpg";
 import G9 from "./GraphicsDesignImages/g-9.jpg";
-import G10 from "./GraphicsDesignImages/g-10.jpg";
-import homeBCSSBg from "./GraphicsDesignImages/home-bg.jpg";
+import { Link } from "../../components/link";
 import homeBCSSImg from "./GraphicsDesignImages/home-img.png";
 import Pic1 from "./GraphicsDesignImages/pic1.png";
 import Pic2 from "./GraphicsDesignImages/pic2.png";
@@ -22,6 +21,7 @@ import S3 from "./GraphicsDesignImages/s-3.svg";
 import S4 from "./GraphicsDesignImages/s-4.svg";
 import S5 from "./GraphicsDesignImages/s-5.svg";
 import S6 from "./GraphicsDesignImages/s-6.svg";
+import Pic4 from "./GraphicsDesignImages/pic4.png";
 
 function GraphicsDesign() {
   return (
@@ -29,16 +29,19 @@ function GraphicsDesign() {
       <section className="sectionBCSS" className="homeBCSS" id="homeBCSS">
         <div className="content">
           <h3 className="h3BCSS">
-            IF CONTENT IS KING <span>
-              DESIGN IS QUEEN 
-            </span>
+            Strange Yet<span> Powerful </span> <br />
+            Simple Yet <span>Unique</span>
           </h3>
           <p>
-          Get your Design Rolling to Stop Users from Scrolling! It takes only 50 milliseconds for a User to decide Whether to Stay or Leave. To get Rid of Snap Judgements, We are at Your Rescue
+            Get your Design Rolling to Stop Users from Scrolling! It takes only
+            50 milliseconds for a User to decide Whether to Stay or Leave. To
+            get Rid of Snap Judgements, We are at Your Rescue
           </p>
-          <a href="#" className="btnBCSS">
-            contact Us
-          </a>
+          <Link path="/contactus">
+            <a href="#" className="btnBCSS">
+              Contact Us
+            </a>{" "}
+          </Link>
         </div>
 
         <div className="image">
@@ -59,7 +62,9 @@ function GraphicsDesign() {
               <img src={S1} alt="" />
               <h3 className="h3BCSS">Let Your Design Speak </h3>
               <p>
-              Design not only Conveys Message but also makes People Think. Content may get Ignored but Design Doesn’t. Design is a Language that Represents Your Brand. 
+                Design not only Conveys Message but also makes People Think.
+                Content may get Ignored but Design Doesn’t. Design is a Language
+                that Represents Your Brand.
               </p>
             </div>
           </div>
@@ -69,7 +74,9 @@ function GraphicsDesign() {
               <img src={S2} alt="" />
               <h3 className="h3BCSS">Keep It Simple </h3>
               <p>
-              You don’t need to Clutter, Give Your Design Air to Breathe. It Doesn’t just Look Nice but Also Works Nice. It is No DOUBT, Design make EYES Read The Content
+                You don’t need to Clutter, Give Your Design Air to Breathe. It
+                Doesn’t just Look Nice but Also Works Nice. It is No DOUBT,
+                Design make EYES Read The Content
               </p>
             </div>
           </div>
@@ -79,7 +86,9 @@ function GraphicsDesign() {
               <img src={S3} alt="" />
               <h3 className="h3BCSS">Less Is More</h3>
               <p>
-              Not Only Texts but Fonts, Scaling, Colour Matter to a Great Extent. Design is Visual Fun, Make it Unforgettable. Simple Design is Pleasing to EYES and Receiving to HEART. 
+                Not Only Texts but Fonts, Scaling, Colour Matter to a Great
+                Extent. Design is Visual Fun, Make it Unforgettable. Simple
+                Design is Pleasing to EYES and Receiving to HEART.
               </p>
             </div>
           </div>
@@ -89,7 +98,9 @@ function GraphicsDesign() {
               <img src={S4} alt="" />
               <h3 className="h3BCSS">Place It Well </h3>
               <p>
-              The Placing of Content is As Important As Content Itself. A Good Design Placement helps Everything Look Good. Every Element has a Specific Place.
+                The Placing of Content is As Important As Content Itself. A Good
+                Design Placement helps Everything Look Good. Every Element has a
+                Specific Place.
               </p>
             </div>
           </div>
@@ -99,7 +110,9 @@ function GraphicsDesign() {
               <img src={S5} alt="" />
               <h3 className="h3BCSS">Only The Fast Last </h3>
               <p>
-              Don’t Use Design and Images that Take Longer Time to Load. People Go Back, If it Stays Blank. Make Your Site Speed a Priority. To be On Track, Let Nothing Lack
+                Don’t Use Design and Images that Take Longer Time to Load.
+                People Go Back, If it Stays Blank. Make Your Site Speed a
+                Priority. To be On Track, Let Nothing Lack
               </p>
             </div>
           </div>
@@ -109,7 +122,9 @@ function GraphicsDesign() {
               <img src={S6} alt="" />
               <h3 className="h3BCSS">Use The Correct Image </h3>
               <p>
-              Use Pictures that Resonate to Your Message. A Clear & Meaningful Image help User Swipe Right. If You Don’t Agree, Just Remove all the Pictures in Your Shopping Site & Try Making an Order
+                Use Pictures that Resonate to Your Message. A Clear & Meaningful
+                Image help User Swipe Right. If You Don’t Agree, Just Remove all
+                the Pictures in Your Shopping Site & Try Making an Order
               </p>
             </div>
           </div>
@@ -123,30 +138,36 @@ function GraphicsDesign() {
 
         <div className="column">
           <div className="image">
-            <img src={S1} alt="" />
+            <img src={Pic4} alt="" />
           </div>
 
           <div className="content">
-            <h3 className="h3BCSS">
-            Secret Sauce Of Great Design
-            </h3>
+            <h3 className="h3BCSS">Great Design Is Everywhere Yet Rare</h3>
             <p>
-            Keep your Content Close but Your Design Closer. 48% Users Credit Design for Growth of a Company or Brand. Web Design is like Resume, Creates The First Impression. Don’t let People Just Stare, But Make them Download it.
+              Keep your Content Close but Your Design Closer. 48% Users Credit
+              Design for Growth of a Company or Brand. Web Design is like
+              Resume, Creates The First Impression. Don’t let People Just Stare,
+              But Make them Download it.
             </p>
             <p>
-            Don’t Worry, You’re on the Right Page!
-            We Eat with Eyes First, Create Breath-taking Designs that Make People Think. With Our Highly Skilled Team, We adapt to Trends Fast, to Make Your Website Outlast
-
+              Don’t Worry, You’re on the Right Page! We Eat with Eyes First,
+              Create Breath-taking Designs that Make People Think. With Our
+              Highly Skilled Team, We adapt to Trends Fast, to Make Your Website
+              Outlast
             </p>
             <div className="buttons">
-              <a href="#" className="btnBCSS">
-                {" "}
-                Contact Us{" "}
-              </a>
-              <a href="#" className="btnBCSS">
-                {" "}
-                home{" "}
-              </a>
+              <Link path="/contactus" label="">
+                <a href="#" className="btnBCSS">
+                  {" "}
+                  Contact Us{" "}
+                </a>
+              </Link>
+              <Link path="/contactus" label="">
+                <a href="#" className="btnBCSS">
+                  {" "}
+                  home{" "}
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -160,7 +181,7 @@ function GraphicsDesign() {
 
         <div className="box-container">
           <div className="box">
-            <span className="price"> Website Design  </span>
+            <span className="price"> Website Design </span>
             <img src={S1} alt="" />
             <h3 className="h3BCSS">Website Design </h3>
             <a href="#" className="btnBCSS">
@@ -168,7 +189,7 @@ function GraphicsDesign() {
             </a>
           </div>
           <div className="box">
-            <span className="price"> Creative Art Design  </span>
+            <span className="price"> Creative Art Design </span>
             <img src={S2} alt="" />
             <h3 className="h3BCSS">Creative Art Design </h3>
             <a href="#" className="btnBCSS">
@@ -212,7 +233,7 @@ function GraphicsDesign() {
 
       <div className="step-container">
         <h1 className="headingBCSS">
-        How We <span> Roll</span>
+          How We <span> Roll</span>
         </h1>
 
         <section className="sectionBCSS" className="steps">
@@ -238,7 +259,7 @@ function GraphicsDesign() {
       <section className="sectionBCSS" className="gallery" id="gallery">
         <h1 className="headingBCSS">
           {" "}
-          It’s This Way  <span> Or No Way! </span>{" "}
+          It’s This Way <span> Or No Way! </span>{" "}
         </h1>
 
         <div className="box-container">
@@ -247,7 +268,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Amazing</h3>
               <p>
-              “It’s through mistakes that you actually can grow. You have to get bad in order to get good.” - Paula Scher
+                “It’s through mistakes that you actually can grow. You have to
+                get bad in order to get good.” - Paula Scher
               </p>
             </div>
           </div>
@@ -256,7 +278,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Attractive</h3>
               <p>
-              “No masterpiece was ever created by a lazy artist.” - Salvador Dalí
+                “No masterpiece was ever created by a lazy artist.” - Salvador
+                Dalí
               </p>
             </div>
           </div>
@@ -265,8 +288,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Accessible</h3>
               <p>
-              “Good design is all about making other designers feel like idiots because that idea wasn’t theirs.” - Frank Chimero
-
+                “Good design is all about making other designers feel like
+                idiots because that idea wasn’t theirs.” - Frank Chimero
               </p>
             </div>
           </div>
@@ -275,7 +298,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Affordable</h3>
               <p>
-              “Content precedes design. Design in the absence of content is not design, it’s decoration.” - Jeffrey Zeldman
+                “Content precedes design. Design in the absence of content is
+                not design, it’s decoration.” - Jeffrey Zeldman
               </p>
             </div>
           </div>
@@ -293,18 +317,14 @@ function GraphicsDesign() {
             <img src={G6} alt="" />
             <div className="content">
               <h3 className="h3BCSS">Achiever</h3>
-              <p>
-              “Design is thinking made visual.” - Saul Bass
-              </p>
+              <p>“Design is thinking made visual.” - Saul Bass</p>
             </div>
           </div>
           <div className="box">
             <img src={G7} alt="" />
             <div className="content">
               <h3 className="h3BCSS">Admirable</h3>
-              <p>
-              “Do not seek praise, seek criticism.” - Paul Arden
-              </p>
+              <p>“Do not seek praise, seek criticism.” - Paul Arden</p>
             </div>
           </div>
           <div className="box">
@@ -312,7 +332,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Adaptable</h3>
               <p>
-              “No design works unless it embodies ideas that are held common by the people for whom the object is intended.” - Adrian Forty
+                “No design works unless it embodies ideas that are held common
+                by the people for whom the object is intended.” - Adrian Forty
               </p>
             </div>
           </div>
@@ -321,7 +342,8 @@ function GraphicsDesign() {
             <div className="content">
               <h3 className="h3BCSS">Appreciable</h3>
               <p>
-              “Design is a solution to a problem; art is a question to a problem.” - John Maeda
+                “Design is a solution to a problem; art is a question to a
+                problem.” - John Maeda
               </p>
             </div>
           </div>
@@ -336,7 +358,7 @@ function GraphicsDesign() {
         <div className="box-container">
           <div className="box">
             <img src={Pic1} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Nirav Suri</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -345,12 +367,15 @@ function GraphicsDesign() {
               <i className="far fa-star"></i>
             </div>
             <p>
-            Definitely Changed My Thoughts Into Reality. Amazing Dedication And Hard Work. Their Flexibility And Ability To Understand Client’s Demand Is Great. They Understand Meaningful Marketing And Helped Us Do The Same.
+              Definitely Changed My Thoughts Into Reality. Amazing Dedication
+              And Hard Work. Their Flexibility And Ability To Understand
+              Client’s Demand Is Great. They Understand Meaningful Marketing And
+              Helped Us Do The Same.
             </p>
           </div>
           <div className="box">
             <img src={Pic2} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Bet-li-Yu</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -359,12 +384,15 @@ function GraphicsDesign() {
               <i className="far fa-star"></i>
             </div>
             <p>
-            Impressed With Their Service Quality And Working Strategy. They Have A Dedicated Team To Ensure All Your Needs. Loved Working With Them. So Attractive And Easy To Use, Reduced The Loading Time Significantly By Use Of Proper Technology.
+              Impressed With Their Service Quality And Working Strategy. They
+              Have A Dedicated Team To Ensure All Your Needs. Loved Working With
+              Them. So Attractive And Easy To Use, Reduced The Loading Time
+              Significantly By Use Of Proper Technology.
             </p>
           </div>
           <div className="box">
             <img src={Pic3} alt="" />
-            <h3 className="h3BCSS">john deo</h3>
+            <h3 className="h3BCSS">Allen Fosis</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -373,7 +401,10 @@ function GraphicsDesign() {
               <i className="far fa-star"></i>
             </div>
             <p>
-            Just At Loss Of Words, I Appreciate The Eye-Tempting Designs. The New Site Is Absolutely User-Friendly. They Are Created With Thorough Understanding Of What I Really Wanted. Communication Was Super-Easy, Loved It
+              Just At Loss Of Words, I Appreciate The Eye-Tempting Designs. The
+              New Site Is Absolutely User-Friendly. They Are Created With
+              Thorough Understanding Of What I Really Wanted. Communication Was
+              Super-Easy, Loved It
             </p>
           </div>
         </div>

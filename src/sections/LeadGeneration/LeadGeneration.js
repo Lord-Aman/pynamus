@@ -1,18 +1,22 @@
 import React from "react";
 import "./LeadGeneration.css";
-import homeImg from "./LeadGenerationImages/home-img.png";
-import fIcon1 from "./LeadGenerationImages/f-icon1.svg";
-import fIcon2 from "./LeadGenerationImages/f-icon2.svg";
-import fIcon3 from "./LeadGenerationImages/f-icon3.svg";
-import AboutImg from "./LeadGenerationImages/about-img.svg";
+
+
 import HTML from "./LeadGenerationImages/html.png";
 import CSS from "./LeadGenerationImages/css.png";
 import JS from "./LeadGenerationImages/js.png";
 // import D3 from "./LeadGenerationImages/d3.png";
 import REACT from "./LeadGenerationImages/react.png";
 import VUE from "./LeadGenerationImages/vuejs.png";
-import Pic1 from "./LeadGenerationImages/pic1.png";
-import Pic3 from "./LeadGenerationImages/pic3.png";
+import Pic1 from "./LeadGenerationImages/pic1.jpg";
+import Pic2 from "./LeadGenerationImages/pic2.jpg";
+import { Link } from "../../components/link";
+import Pic4 from "./LeadGenerationImages/pic4.png";
+import Pic5 from "./LeadGenerationImages/pic5.png";
+import Pic6 from "./LeadGenerationImages/pic6.png";
+import Pic7 from "./LeadGenerationImages/pic7.png";
+import Pic8 from "./LeadGenerationImages/pic8.png";
+import Pic9 from "./LeadGenerationImages/pic9.png";
 
 function LeadGeneration() {
   return (
@@ -21,31 +25,34 @@ function LeadGeneration() {
         <section className="homeACSS sectionCSS" id="homeACSS">
           <div className="content">
             <h3>
-            You Are Out Of Business  <span> If You Don't Have A Vision </span>
+              YOU ARE OUT OF BUSINESS  <span> IF YOU DON'T HAVE A VISION</span>
             </h3>
             <p>
-            The lead generation process starts by finding out where your Target Market 'lives' on the Web 
+            The Process Of Lead Generation Is A Skill To Generate Potential Customers To Generate The Growth Of The Business.   
             </p>
             <a href="#" className="btnACSS">
-              contact Us
+              <Link
+                path="/contactus"
+                label="Contact Us"
+                style={{ color: "#fff" }}
+              ></Link>
             </a>
           </div>
 
           <div className="image">
-            <img src={homeImg} alt="" />
+            <img src={Pic5} alt="" />
           </div>
         </section>
 
         <section className="featuresACSS sectionCSS" id="featuresACSS">
-          <h1 className="headingACSS"> WORDS ARE POWERFUL </h1>
+          <h1 className="headingACSS">TO INFLUENCE IS A SKILL  </h1>
 
           <div className="box-containerACSS">
             <div className="box">
-              <img src={fIcon1} alt="" />
-              <h3>Give better offers</h3>
+              <img src={Pic6} alt="" />
+              <h3>Shower Offers </h3>
               <p>
-              Unless you're one of the very top advertisers, there's a ton of room for conversion rate improvement.
-              One creative way is to give better offers. This is far more meaningful than your typical, run of the mill optimizations – changing button color, font type, spacing, etc.
+              It is a Stressful Task To Create Room For Better Conversion Rate Unless You are The Top Player. One Way to Make Your Marketing Meaningful Is To Shower Offers Instead Of Old-School Methods. 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -53,30 +60,30 @@ function LeadGeneration() {
             </div>
 
             <div className="box">
-              <img src={fIcon2} alt="" />
-              <h3>Write better ads! </h3>
+              <img src={Pic7} alt="" />
+              <h3>Be Different </h3>
               <p>
-              This is what I call an AdWords Jackpot for an advertiser. When everything looks the same, there's a huge opportunity to come in with something different and blow the competition away!
+              It is The Different Which Wins. Write Better Scripts To Blow The Competition Away. Old Ways Stink, The Technology and The Market Is Growing Significantly, Pull Up Your Socks. 
               </p>
               <a href="#" className="btnACSS">
                 read more
               </a>
             </div>
             <div className="box">
-              <img src={fIcon2} alt="" />
-              <h3>Go nuts with remarketing</h3>
+              <img src={Pic8} alt="" />
+              <h3>The Most Worked </h3>
               <p>
-              Remarketing enables you to tag site visitors and get back in front of them as they go about their business around the web, checking their email, watching YouTube, searching Google and even hanging out on Facebook.
+              Remarketing is The Most Worked Method Of All Time. Logically Presenting The Ads User Searched Increases Brand Awareness And Influences The Mind Of The Customer To Grab It.
               </p>
               <a href="#" className="btnACSS">
                 read more
               </a>
             </div>
             <div className="box">
-              <img src={fIcon3} alt="" />
-              <h3>Use Gmail ads to Target Customers</h3>
+              <img src={Pic9} alt="" />
+              <h3>Target Potential Clients </h3>
               <p>
-              For a SaaS startup, no audience is more valuable than your competitors’ customers. With Gmail Ads, you can target your AdWords campaign to only ever reach people who receive emails from your competitors, giving you direct access to people that already use similar products.
+              Encouraging Your and Competitor’s Customer To Buy Products They Already Use Is A Smart Way To Access People. A Great Way To Stick Your Potential Clients Around Your Company. 
               </p>
               <a href="#" className="btnACSS">
                 read more
@@ -90,64 +97,34 @@ function LeadGeneration() {
 
           <div className="column">
             <div className="image">
-              <img src={AboutImg} alt="" />
+              <img src={Pic4} alt="" />
             </div>
 
             <div className="content">
-              <h3>Secret Sauce of Great LEAD  </h3>
+              <h3>No More Fight For LEAD  </h3>
               <p>
-                The Vital Ingredient of a Great Website is to generate hunger
-                for What’s More! The Audience isn’t interested in “What You
-                Provide them” but in
+              The Old-School Methods Of Marketing Has Expired Now. Businesses Try Their Level Best To Level Up Their Marketing Returns. B2B Marketing Is The Newest Applied & Tested Method To Tackle Business Growth Challenges. 
               </p>
               <p>
-                “How You Provide Them”. More than 90% people credited fonts,
-                design, and structure to be the “Instant Connection” for them.
-                Don’t worry! Your Website’s Beauty is now Our Duty. We deliver
-                Top-notch services with the Finest Technology for you to be The
-                Best Player in Market. Our Highly Skilled Team helps address
-                both your planned and unplanned needs with great efficiency.
+              Don’t Worry, We Will Mind Your Business. With Our Service, You Will Experience Exponential Growth In Customers. We Do Not Compromise With Quality, Thus Provide World-Class Service At Prices Your Pocket Won’t Feel A Touch.
               </p>
               <div className="buttons">
-                <a href="#" className="btnACSS">
-                  {" "}
-                  Contact Us{" "}
-                </a>
-                <a href="#" className="btnACSS">
-                  {" "}
-                  home{" "}
-                </a>
+                <Link path="/contactus" label="">
+                  <a href="/contactus" className="btnACSS">
+                    {" "}
+                    Contact Us{" "}
+                  </a>
+                </Link>
+                <Link path="/" label="">
+                  <a href="/" className="btnACSS">
+                    {" "}
+                    home{" "}
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
         </section>
-
-        <div className="techACSS">
-          <h1 className="headingACSS1">technology We Use</h1>
-          <div className="box-containerACSS">
-            <div className="box">
-              <div className="col">
-                <img src={HTML} />
-              </div>
-              <div className="col">
-                <img src={CSS} />
-              </div>
-              <div className="col">
-                <img src={REACT} />
-              </div>
-              <div className="col">
-                <img src={JS} />
-              </div>
-
-              <div className="col">
-                <img src={VUE} />
-              </div>
-              {/* <div className="col">
-                <img src={D3} />
-              </div> */}
-            </div>
-          </div>
-        </div>
 
         <section class="reviewACSS sectionCSS" id="reviewACSS">
           <h1 class="headingACSS1"> people's review </h1>
@@ -156,7 +133,7 @@ function LeadGeneration() {
             <div class="box">
               <div class="userACSS">
                 <img src={Pic1} alt="" />
-                <h3>Murshida Afrin</h3>
+                <h3>Joseph Robin</h3>
 
                 <div class="comment">
                   Impressed with their service quality and working strategy.
@@ -184,8 +161,8 @@ function LeadGeneration() {
             */}
             <div class="box">
               <div class="userACSS">
-                <img src={Pic3} alt="" />
-                <h3>Ritish Ghadai</h3>
+                <img src={Pic2} alt="" />
+                <h3>Ambel Gangoloi</h3>
                 <div class="comment">
                   Just at loss of words, I appreciate the eye-tempting designs.
                   The new site is absolutely user-friendly. They are created

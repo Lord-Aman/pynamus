@@ -19,7 +19,10 @@ const features = () => {
           >
             How we Roll
           </h2>
-          <p>We deliver you 4G’s – Great Quality, Growth, Guidance & Glory</p>
+          <p>
+            We deliver you <span className="makeOrange">4G’s</span> – Great
+            Quality, Growth, Guidance & Glory
+          </p>
         </header>
 
         <div className="row">

@@ -40,9 +40,8 @@ html {
 }
 
 .btnACSS {
-  display: inline-block;
+  text-align: inherit;
   margin-top: 1rem;
-  padding: 0.8rem 3rem;
   border-radius: 5rem;
   background: var(--gradient);
   font-size: 1rem;
@@ -71,6 +70,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
   background-position: center;
 }
 
@@ -106,6 +106,9 @@ html {
   color: #666;
   padding: 1rem 0;
 }
+.featuresACSS {
+  background-color: #fff;
+}
 
 .featuresACSS .box-containerACSS {
   display: flex;
@@ -133,7 +136,8 @@ html {
 
 .featuresACSS .box-containerACSS .box h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: #4589d6;
+  font-weight: bold;
   padding-top: 1rem;
 }
 
@@ -146,6 +150,7 @@ html {
 
 .aboutACSS {
   background-size: cover;
+  background-color: #fff;
   background-position: center;
   padding-bottom: 3rem;
 }
@@ -156,9 +161,15 @@ html {
   justify-content: center;
   flex-wrap: wrap;
 }
+.techCSS {
+  background-color: #fff;
+}
+.reviewACSS {
+  background-color: #fff;
+}
 
 .aboutACSS .column .image {
-  flex: 1 1 40rem;
+  flex: 1 1 35rem;
 }
 
 .aboutACSS .column .image img {
@@ -204,6 +215,9 @@ html {
   margin-left: 50px;
   margin-right: 50px;
   flex: 1 1 30rem;
+}
+.headingACSS1 {
+  font-weight: bold;
 }
 
 .col {

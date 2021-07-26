@@ -20,6 +20,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.h3BCSS {
+  font-weight: bold;
+}
+.headingBCSS {
+  font-weight: bold;
+}
 .sectionBCSS {
   padding: 2rem;
 }
@@ -30,7 +36,7 @@ html {
 
 .headingBCSS {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 1rem;
   color: #666;
 }
@@ -161,7 +167,7 @@ html {
 
 .speciality .box-container .box .content .h3BCSS {
   font-size: 1.5rem;
-  color: #333;
+  color: #4589d6;
 }
 
 .speciality .box-container .box .content p {
@@ -246,8 +252,8 @@ html {
 
 .popular .box-container .box .price {
   position: absolute;
-  top: 3rem;
-  left: 3rem;
+  top: 0.2rem;
+  left: 0.2rem;
   background: var(--red);
   color: #fff;
   font-size: 1rem;
@@ -256,7 +262,7 @@ html {
 }
 
 .popular .box-container .box .h3BCSS {
-  color: #333;
+  color: var(--red);
   font-size: 1.5rem;
   padding-top: 1rem;
 }
